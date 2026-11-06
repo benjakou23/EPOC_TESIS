@@ -1,0 +1,17 @@
+# Entorno de Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Datos pesados: se descargan de Zenodo o se regeneran con los scripts
+data/raw/
+data/processed/copd_cough/wav16k/
+
+# OPERA se clona aparte (pesos de 356 MB y 60 MB)
+third_party/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini

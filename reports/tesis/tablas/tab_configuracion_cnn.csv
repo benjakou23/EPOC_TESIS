@@ -1,0 +1,11 @@
+﻿Elemento,Configuración
+Entrada,"Forma de onda mono 16 kHz, ventanas de 3 s (salto 1,5 s)"
+Representación,"Log-Mel 64 bandas, 50–8000 Hz, ventana 25 ms, salto 10 ms, normalización por instancia"
+Arquitectura,"CNN con convoluciones separables en profundidad (estilo MobileNet), 7 bloques, pooling medio+máximo"
+Parámetros,101 121
+Tamaño (float32 / int8 estimado),0.40 MB / 0.10 MB
+Aumento de datos,"Velocidad ±10 %, ganancia ±6 dB, ruido SNR 10–40 dB, paso bajo, SpecAugment"
+Desbalance,Pérdida BCE con pos_weight = sanos/EPOC
+Optimización,"AdamW (lr 2e-3, weight decay 1e-3), OneCycle, lote 32, máx. 60 épocas, paciencia 15 (AUC val)"
+Predicción por grabación,Promedio de probabilidades de las ventanas
+Latencia CPU laptop (3 s de audio),13.0 ms (Intel Core 5 210H)

@@ -1,0 +1,229 @@
+Parámetros del modelo: 101,121
+
+=== Semilla 0 ===
+  [s0] ep   1 loss 1.2952 AUC_val 0.624 (8s) *
+  [s0] ep   2 loss 1.1339 AUC_val 0.514 (8s)
+  [s0] ep   3 loss 1.1549 AUC_val 0.522 (8s)
+  [s0] ep   4 loss 1.1232 AUC_val 0.684 (8s) *
+  [s0] ep   5 loss 1.1343 AUC_val 0.728 (8s) *
+  [s0] ep   6 loss 1.1256 AUC_val 0.704 (8s)
+  [s0] ep   7 loss 1.1396 AUC_val 0.747 (8s) *
+  [s0] ep   8 loss 1.1350 AUC_val 0.768 (8s) *
+  [s0] ep   9 loss 1.1168 AUC_val 0.717 (8s)
+  [s0] ep  10 loss 1.0878 AUC_val 0.663 (8s)
+  [s0] ep  11 loss 1.0801 AUC_val 0.649 (8s)
+  [s0] ep  12 loss 1.0267 AUC_val 0.700 (8s)
+  [s0] ep  13 loss 1.1138 AUC_val 0.654 (7s)
+  [s0] ep  14 loss 1.0585 AUC_val 0.697 (7s)
+  [s0] ep  15 loss 1.0989 AUC_val 0.777 (8s) *
+  [s0] ep  16 loss 1.0685 AUC_val 0.699 (8s)
+  [s0] ep  17 loss 1.0695 AUC_val 0.751 (7s)
+  [s0] ep  18 loss 1.0776 AUC_val 0.533 (8s)
+  [s0] ep  19 loss 1.1064 AUC_val 0.609 (9s)
+  [s0] ep  20 loss 1.0773 AUC_val 0.601 (8s)
+  [s0] ep  21 loss 1.0650 AUC_val 0.603 (8s)
+  [s0] ep  22 loss 1.0230 AUC_val 0.678 (9s)
+  [s0] ep  23 loss 1.0530 AUC_val 0.690 (8s)
+  [s0] ep  24 loss 1.0582 AUC_val 0.718 (8s)
+  [s0] ep  25 loss 0.9818 AUC_val 0.717 (8s)
+  [s0] ep  26 loss 1.0622 AUC_val 0.662 (8s)
+  [s0] ep  27 loss 1.0082 AUC_val 0.681 (8s)
+  [s0] ep  28 loss 1.0066 AUC_val 0.629 (8s)
+  [s0] ep  29 loss 1.0052 AUC_val 0.771 (8s)
+  [s0] ep  30 loss 0.9620 AUC_val 0.680 (8s)
+  [s0] ep  31 loss 1.0030 AUC_val 0.741 (16s)
+  [s0] ep  32 loss 0.9636 AUC_val 0.758 (8s)
+  [s0] ep  33 loss 1.0109 AUC_val 0.723 (8s)
+  [s0] ep  34 loss 1.0011 AUC_val 0.798 (8s) *
+  [s0] ep  35 loss 0.9831 AUC_val 0.747 (8s)
+  [s0] ep  36 loss 0.9118 AUC_val 0.778 (8s)
+  [s0] ep  37 loss 0.9592 AUC_val 0.783 (9s)
+  [s0] ep  38 loss 0.9879 AUC_val 0.825 (8s) *
+  [s0] ep  39 loss 0.9733 AUC_val 0.746 (8s)
+  [s0] ep  40 loss 0.9561 AUC_val 0.798 (9s)
+  [s0] ep  41 loss 0.9495 AUC_val 0.796 (8s)
+  [s0] ep  42 loss 0.9611 AUC_val 0.780 (9s)
+  [s0] ep  43 loss 0.9339 AUC_val 0.759 (8s)
+  [s0] ep  44 loss 0.9301 AUC_val 0.797 (9s)
+  [s0] ep  45 loss 0.9301 AUC_val 0.797 (8s)
+  [s0] ep  46 loss 0.9517 AUC_val 0.827 (8s) *
+  [s0] ep  47 loss 0.9592 AUC_val 0.831 (8s) *
+  [s0] ep  48 loss 0.9384 AUC_val 0.799 (9s)
+  [s0] ep  49 loss 0.8662 AUC_val 0.721 (7s)
+  [s0] ep  50 loss 0.8826 AUC_val 0.794 (8s)
+  [s0] ep  51 loss 0.8726 AUC_val 0.807 (9s)
+  [s0] ep  52 loss 0.8618 AUC_val 0.826 (8s)
+  [s0] ep  53 loss 0.8420 AUC_val 0.801 (8s)
+  [s0] ep  54 loss 0.9043 AUC_val 0.787 (8s)
+  [s0] ep  55 loss 0.8765 AUC_val 0.767 (9s)
+  [s0] ep  56 loss 0.8564 AUC_val 0.778 (8s)
+  [s0] ep  57 loss 0.8158 AUC_val 0.777 (8s)
+  [s0] ep  58 loss 0.8628 AUC_val 0.790 (9s)
+  [s0] ep  59 loss 0.8064 AUC_val 0.784 (10s)
+  [s0] ep  60 loss 0.8168 AUC_val 0.791 (12s)
+  [s0] ep  61 loss 0.8259 AUC_val 0.818 (11s)
+  [s0] ep  62 loss 0.8039 AUC_val 0.830 (20s)
+  [s0] ep  63 loss 0.7988 AUC_val 0.821 (24s)
+  [s0] ep  64 loss 0.8262 AUC_val 0.821 (25s)
+  [s0] ep  65 loss 0.8314 AUC_val 0.804 (25s)
+  [s0] ep  66 loss 0.7766 AUC_val 0.785 (25s)
+  [s0] ep  67 loss 0.8457 AUC_val 0.806 (26s)
+  TEST -> AUC 0.837 | Sens 0.956 | Esp 0.472 | VPN 0.968 (umbral 0.362)
+
+=== Semilla 1 ===
+  [s1] ep   1 loss 1.2282 AUC_val 0.492 (8s) *
+  [s1] ep   2 loss 1.1189 AUC_val 0.416 (8s)
+  [s1] ep   3 loss 1.0976 AUC_val 0.288 (7s)
+  [s1] ep   4 loss 1.0821 AUC_val 0.394 (7s)
+  [s1] ep   5 loss 1.1133 AUC_val 0.480 (7s)
+  [s1] ep   6 loss 1.1505 AUC_val 0.541 (7s) *
+  [s1] ep   7 loss 1.1145 AUC_val 0.588 (7s) *
+  [s1] ep   8 loss 1.1085 AUC_val 0.614 (8s) *
+  [s1] ep   9 loss 1.0657 AUC_val 0.686 (7s) *
+  [s1] ep  10 loss 1.1147 AUC_val 0.619 (8s)
+  [s1] ep  11 loss 1.0621 AUC_val 0.658 (8s)
+  [s1] ep  12 loss 1.0849 AUC_val 0.690 (8s) *
+  [s1] ep  13 loss 1.0985 AUC_val 0.685 (8s)
+  [s1] ep  14 loss 1.0918 AUC_val 0.712 (7s) *
+  [s1] ep  15 loss 1.0766 AUC_val 0.620 (8s)
+  [s1] ep  16 loss 1.0794 AUC_val 0.668 (8s)
+  [s1] ep  17 loss 1.0796 AUC_val 0.539 (8s)
+  [s1] ep  18 loss 1.0454 AUC_val 0.712 (8s)
+  [s1] ep  19 loss 1.0839 AUC_val 0.770 (8s) *
+  [s1] ep  20 loss 1.0591 AUC_val 0.743 (8s)
+  [s1] ep  21 loss 1.0088 AUC_val 0.738 (8s)
+  [s1] ep  22 loss 1.0914 AUC_val 0.727 (8s)
+  [s1] ep  23 loss 1.0119 AUC_val 0.759 (8s)
+  [s1] ep  24 loss 1.1233 AUC_val 0.738 (8s)
+  [s1] ep  25 loss 1.0667 AUC_val 0.710 (8s)
+  [s1] ep  26 loss 1.0167 AUC_val 0.692 (8s)
+  [s1] ep  27 loss 1.0154 AUC_val 0.731 (8s)
+  [s1] ep  28 loss 0.9884 AUC_val 0.756 (8s)
+  [s1] ep  29 loss 0.9920 AUC_val 0.756 (8s)
+  [s1] ep  30 loss 1.0008 AUC_val 0.739 (8s)
+  [s1] ep  31 loss 0.9685 AUC_val 0.753 (8s)
+  [s1] ep  32 loss 1.0257 AUC_val 0.673 (8s)
+  [s1] ep  33 loss 0.9495 AUC_val 0.674 (8s)
+  [s1] ep  34 loss 0.9459 AUC_val 0.720 (8s)
+  [s1] ep  35 loss 0.9583 AUC_val 0.701 (9s)
+  [s1] ep  36 loss 0.9664 AUC_val 0.669 (8s)
+  [s1] ep  37 loss 0.9734 AUC_val 0.782 (8s) *
+  [s1] ep  38 loss 0.9415 AUC_val 0.778 (7s)
+  [s1] ep  39 loss 0.9352 AUC_val 0.724 (7s)
+  [s1] ep  40 loss 0.9569 AUC_val 0.758 (7s)
+  [s1] ep  41 loss 0.8583 AUC_val 0.723 (7s)
+  [s1] ep  42 loss 0.9442 AUC_val 0.785 (7s) *
+  [s1] ep  43 loss 0.9336 AUC_val 0.772 (7s)
+  [s1] ep  44 loss 0.9434 AUC_val 0.800 (7s) *
+  [s1] ep  45 loss 0.8838 AUC_val 0.702 (7s)
+  [s1] ep  46 loss 0.8875 AUC_val 0.813 (7s) *
+  [s1] ep  47 loss 0.8964 AUC_val 0.821 (7s) *
+  [s1] ep  48 loss 0.9150 AUC_val 0.816 (7s)
+  [s1] ep  49 loss 0.8667 AUC_val 0.774 (7s)
+  [s1] ep  50 loss 0.8814 AUC_val 0.796 (8s)
+  [s1] ep  51 loss 0.8242 AUC_val 0.807 (8s)
+  [s1] ep  52 loss 0.8959 AUC_val 0.817 (8s)
+  [s1] ep  53 loss 0.8947 AUC_val 0.818 (7s)
+  [s1] ep  54 loss 0.8946 AUC_val 0.809 (7s)
+  [s1] ep  55 loss 0.8232 AUC_val 0.814 (7s)
+  [s1] ep  56 loss 0.8278 AUC_val 0.804 (7s)
+  [s1] ep  57 loss 0.8559 AUC_val 0.788 (7s)
+  [s1] ep  58 loss 0.8212 AUC_val 0.793 (7s)
+  [s1] ep  59 loss 0.8284 AUC_val 0.790 (7s)
+  [s1] ep  60 loss 0.8913 AUC_val 0.783 (7s)
+  [s1] ep  61 loss 0.7942 AUC_val 0.811 (7s)
+  [s1] ep  62 loss 0.8118 AUC_val 0.838 (7s) *
+  [s1] ep  63 loss 0.7922 AUC_val 0.826 (7s)
+  [s1] ep  64 loss 0.7605 AUC_val 0.824 (7s)
+  [s1] ep  65 loss 0.8222 AUC_val 0.830 (7s)
+  [s1] ep  66 loss 0.8184 AUC_val 0.839 (7s) *
+  [s1] ep  67 loss 0.7398 AUC_val 0.860 (7s) *
+  [s1] ep  68 loss 0.7755 AUC_val 0.865 (7s) *
+  [s1] ep  69 loss 0.7770 AUC_val 0.855 (7s)
+  [s1] ep  70 loss 0.7593 AUC_val 0.849 (7s)
+  [s1] ep  71 loss 0.7475 AUC_val 0.847 (8s)
+  [s1] ep  72 loss 0.7857 AUC_val 0.847 (7s)
+  [s1] ep  73 loss 0.8008 AUC_val 0.843 (7s)
+  [s1] ep  74 loss 0.8246 AUC_val 0.843 (7s)
+  [s1] ep  75 loss 0.7435 AUC_val 0.844 (7s)
+  [s1] ep  76 loss 0.7815 AUC_val 0.845 (7s)
+  [s1] ep  77 loss 0.7603 AUC_val 0.846 (7s)
+  [s1] ep  78 loss 0.7249 AUC_val 0.846 (7s)
+  [s1] ep  79 loss 0.7753 AUC_val 0.845 (8s)
+  [s1] ep  80 loss 0.7686 AUC_val 0.844 (8s)
+  TEST -> AUC 0.850 | Sens 0.867 | Esp 0.606 | VPN 0.928 (umbral 0.291)
+
+=== Semilla 2 ===
+  [s2] ep   1 loss 1.0928 AUC_val 0.609 (7s) *
+  [s2] ep   2 loss 1.0725 AUC_val 0.506 (7s)
+  [s2] ep   3 loss 1.1120 AUC_val 0.523 (7s)
+  [s2] ep   4 loss 1.1372 AUC_val 0.561 (7s)
+  [s2] ep   5 loss 1.1147 AUC_val 0.613 (7s) *
+  [s2] ep   6 loss 1.1469 AUC_val 0.562 (7s)
+  [s2] ep   7 loss 1.1204 AUC_val 0.568 (7s)
+  [s2] ep   8 loss 1.0713 AUC_val 0.576 (8s)
+  [s2] ep   9 loss 1.1099 AUC_val 0.644 (7s) *
+  [s2] ep  10 loss 1.1194 AUC_val 0.614 (7s)
+  [s2] ep  11 loss 1.0341 AUC_val 0.592 (7s)
+  [s2] ep  12 loss 1.1023 AUC_val 0.624 (7s)
+  [s2] ep  13 loss 1.0863 AUC_val 0.646 (7s) *
+  [s2] ep  14 loss 1.0800 AUC_val 0.633 (7s)
+  [s2] ep  15 loss 1.0933 AUC_val 0.676 (7s) *
+  [s2] ep  16 loss 1.0430 AUC_val 0.658 (7s)
+  [s2] ep  17 loss 1.0298 AUC_val 0.633 (7s)
+  [s2] ep  18 loss 1.1353 AUC_val 0.488 (8s)
+  [s2] ep  19 loss 1.0513 AUC_val 0.736 (8s) *
+  [s2] ep  20 loss 1.0634 AUC_val 0.691 (7s)
+  [s2] ep  21 loss 1.0564 AUC_val 0.672 (7s)
+  [s2] ep  22 loss 1.0117 AUC_val 0.713 (8s)
+  [s2] ep  23 loss 1.0409 AUC_val 0.743 (7s) *
+  [s2] ep  24 loss 1.0411 AUC_val 0.635 (7s)
+  [s2] ep  25 loss 1.0586 AUC_val 0.729 (7s)
+  [s2] ep  26 loss 1.0031 AUC_val 0.752 (8s) *
+  [s2] ep  27 loss 1.0007 AUC_val 0.819 (8s) *
+  [s2] ep  28 loss 1.0189 AUC_val 0.771 (9s)
+  [s2] ep  29 loss 0.9994 AUC_val 0.756 (9s)
+  [s2] ep  30 loss 0.9656 AUC_val 0.777 (7s)
+  [s2] ep  31 loss 0.9922 AUC_val 0.750 (8s)
+  [s2] ep  32 loss 0.9822 AUC_val 0.737 (8s)
+  [s2] ep  33 loss 0.9114 AUC_val 0.827 (8s) *
+  [s2] ep  34 loss 0.8660 AUC_val 0.813 (8s)
+  [s2] ep  35 loss 0.9587 AUC_val 0.813 (9s)
+  [s2] ep  36 loss 0.9231 AUC_val 0.845 (8s) *
+  [s2] ep  37 loss 0.9900 AUC_val 0.779 (8s)
+  [s2] ep  38 loss 0.9534 AUC_val 0.854 (7s) *
+  [s2] ep  39 loss 0.9531 AUC_val 0.823 (10s)
+  [s2] ep  40 loss 0.9248 AUC_val 0.847 (24s)
+  [s2] ep  41 loss 0.8971 AUC_val 0.830 (8s)
+  [s2] ep  42 loss 0.8450 AUC_val 0.846 (10s)
+  [s2] ep  43 loss 0.9131 AUC_val 0.882 (11s) *
+  [s2] ep  44 loss 0.8988 AUC_val 0.806 (9s)
+  [s2] ep  45 loss 0.8824 AUC_val 0.863 (9s)
+  [s2] ep  46 loss 0.8452 AUC_val 0.834 (9s)
+  [s2] ep  47 loss 0.8503 AUC_val 0.800 (11s)
+  [s2] ep  48 loss 0.9027 AUC_val 0.834 (8s)
+  [s2] ep  49 loss 0.8629 AUC_val 0.847 (7s)
+  [s2] ep  50 loss 0.8451 AUC_val 0.833 (8s)
+  [s2] ep  51 loss 0.8492 AUC_val 0.837 (8s)
+  [s2] ep  52 loss 0.7992 AUC_val 0.864 (8s)
+  [s2] ep  53 loss 0.8040 AUC_val 0.856 (8s)
+  [s2] ep  54 loss 0.8572 AUC_val 0.825 (8s)
+  [s2] ep  55 loss 0.8374 AUC_val 0.836 (8s)
+  [s2] ep  56 loss 0.8771 AUC_val 0.821 (8s)
+  [s2] ep  57 loss 0.7996 AUC_val 0.819 (8s)
+  [s2] ep  58 loss 0.7683 AUC_val 0.842 (8s)
+  [s2] ep  59 loss 0.7891 AUC_val 0.865 (8s)
+  [s2] ep  60 loss 0.7710 AUC_val 0.856 (9s)
+  [s2] ep  61 loss 0.7636 AUC_val 0.844 (9s)
+  [s2] ep  62 loss 0.7877 AUC_val 0.843 (9s)
+  [s2] ep  63 loss 0.7808 AUC_val 0.803 (9s)
+  TEST -> AUC 0.873 | Sens 0.933 | Esp 0.677 | VPN 0.966 (umbral 0.374)
+
+=== Resumen ===
+ semilla  auc_val   auc  sensibilidad  especificidad   vpn
+       0    0.831 0.837         0.956          0.472 0.968
+       1    0.865 0.850         0.867          0.606 0.928
+       2    0.882 0.873         0.933          0.677 0.966
+
+Ensamble: {'auc': 0.878, 'sensibilidad': 0.911, 'especificidad': 0.606, 'vpp': 0.451, 'vpn': 0.951, 'bal_acc': 0.759, 'umbral': 0.363, 'tp': 41, 'fn': 4, 'tn': 77, 'fp': 50}
+IC95 bootstrap: {'auc': (0.816, 0.932), 'sensibilidad': (0.821, 0.98), 'especificidad': (0.522, 0.69), 'vpn': (0.902, 0.988)}
