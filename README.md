@@ -97,4 +97,4 @@ Los pesos de OPERA (`encoder-operaCT.ckpt`, `encoder-operaCE.ckpt`) **no se incl
 
 - Aplicativo en Flutter (ONNX Runtime) según `models/final/export/especificacion_app.json`.
 - Medición en el teléfono HONOR: latencia, tamaño instalado y consistencia con la PC.
-- Corrección del early stopping (ver issue).
+- Corrección del early stopping.
