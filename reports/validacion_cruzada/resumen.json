@@ -1,24 +1,24 @@
 {
   "media": {
     "CNN": {
-      "auc": 0.6576,
-      "sensibilidad": 0.8184,
-      "especificidad": 0.3686,
-      "vpp": 0.3189,
-      "vpn": 0.8395,
-      "f1": 0.4559,
-      "exactitud": 0.485,
-      "bal_acc": 0.5935
+      "auc": 0.7467,
+      "sensibilidad": 0.8565,
+      "especificidad": 0.4167,
+      "vpp": 0.3474,
+      "vpn": 0.9036,
+      "f1": 0.4896,
+      "exactitud": 0.5304,
+      "bal_acc": 0.6366
     },
     "Fusion": {
-      "auc": 0.7413,
-      "sensibilidad": 0.7656,
-      "especificidad": 0.5197,
-      "vpp": 0.3637,
-      "vpn": 0.8801,
-      "f1": 0.4837,
-      "exactitud": 0.5834,
-      "bal_acc": 0.6427
+      "auc": 0.766,
+      "sensibilidad": 0.7982,
+      "especificidad": 0.5304,
+      "vpp": 0.3786,
+      "vpn": 0.8945,
+      "f1": 0.5064,
+      "exactitud": 0.5998,
+      "bal_acc": 0.6643
     },
     "Metadatos": {
       "auc": 0.6492,
@@ -43,24 +43,24 @@
   },
   "std": {
     "CNN": {
-      "auc": 0.1086,
-      "sensibilidad": 0.0878,
-      "especificidad": 0.1581,
-      "vpp": 0.0483,
-      "vpn": 0.0738,
-      "f1": 0.0526,
-      "exactitud": 0.1094,
-      "bal_acc": 0.072
+      "auc": 0.0503,
+      "sensibilidad": 0.1002,
+      "especificidad": 0.158,
+      "vpp": 0.0488,
+      "vpn": 0.0503,
+      "f1": 0.0426,
+      "exactitud": 0.0992,
+      "bal_acc": 0.0525
     },
     "Fusion": {
-      "auc": 0.0741,
-      "sensibilidad": 0.1878,
-      "especificidad": 0.1523,
-      "vpp": 0.044,
-      "vpn": 0.0651,
-      "f1": 0.0575,
-      "exactitud": 0.0784,
-      "bal_acc": 0.0544
+      "auc": 0.0619,
+      "sensibilidad": 0.1583,
+      "especificidad": 0.1347,
+      "vpp": 0.0415,
+      "vpn": 0.0564,
+      "f1": 0.0509,
+      "exactitud": 0.072,
+      "bal_acc": 0.0492
     },
     "Metadatos": {
       "auc": 0.0827,
@@ -84,10 +84,10 @@
     }
   },
   "victorias_auc_por_fold": {
-    "Fusion > CNN": 20,
-    "CNN > Metadatos": 9,
-    "CNN > OPERA": 8,
-    "Fusion > OPERA": 20,
+    "Fusion > CNN": 16,
+    "CNN > Metadatos": 22,
+    "CNN > OPERA": 15,
+    "Fusion > OPERA": 24,
     "total_folds": 25
   }
 }

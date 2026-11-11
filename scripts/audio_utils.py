@@ -165,12 +165,21 @@ def predecir_registros(model, root, meta, batch=64):
 
 
 # ---------------------------------------------------------------- entrenamiento
-def entrenar_cnn(root, tr, va, seed, ckpt, epocas=60, paciencia=15, lr=2e-3, tag=""):
-    """Entrena CNNTos con early stopping por AUC en `va`; devuelve (modelo, historial)."""
+def entrenar_cnn(root, tr, va, seed, ckpt, epocas=60, paciencia=15, lr=2e-3, tag="",
+                 min_epocas=None):
+    """Entrena CNNTos con early stopping por AUC en `va`, solo a partir de `min_epocas`.
+
+    Con OneCycleLR el learning rate sube hasta ~la época 18 y el AUC de validación es ruidoso
+    durante ese calentamiento: ni se guarda checkpoint ni cuenta la paciencia antes de
+    `min_epocas`. None -> epocas // 2 (30 con 60 épocas). Devuelve (modelo, historial).
+    """
     import time
 
     import torch.nn.functional as F
     from sklearn.metrics import roc_auc_score
+
+    if min_epocas is None:
+        min_epocas = epocas // 2
 
     torch.manual_seed(seed); np.random.seed(seed)
     ds = DatasetTos(root, tr, aumentar=True, seed=seed)
@@ -190,14 +199,15 @@ def entrenar_cnn(root, tr, va, seed, ckpt, epocas=60, paciencia=15, lr=2e-3, tag
         auc_val = roc_auc_score(va.label, predecir_registros(model, root, va))
         hist.append({"epoca": ep, "loss": perdida / len(ds), "auc_val": auc_val})
         marca = ""
-        if auc_val > mejor:
-            mejor, sin_mejora = auc_val, 0
-            torch.save(model.state_dict(), ckpt); marca = " *"
-        else:
-            sin_mejora += 1
+        if ep >= min_epocas:                      # antes: calentamiento, no se evalúa
+            if auc_val > mejor:
+                mejor, sin_mejora = auc_val, 0
+                torch.save(model.state_dict(), ckpt); marca = " *"
+            else:
+                sin_mejora += 1
         print(f"  [{tag}] ep {ep:3d} loss {perdida / len(ds):.4f} "
               f"AUC_val {auc_val:.3f} ({time.time() - t0:.0f}s){marca}", flush=True)
-        if sin_mejora >= paciencia:
+        if ep >= min_epocas and sin_mejora >= paciencia:
             break
     model.load_state_dict(torch.load(ckpt))
     return model, pd.DataFrame(hist)

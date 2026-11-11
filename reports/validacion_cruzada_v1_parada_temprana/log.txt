@@ -1,0 +1,1091 @@
+
+=== Repetición 0 | fold 0 ===
+  [r0f0] ep   1 loss 1.3140 AUC_val 0.608 (7s) *
+  [r0f0] ep   2 loss 1.1583 AUC_val 0.440 (7s)
+  [r0f0] ep   3 loss 1.1240 AUC_val 0.453 (7s)
+  [r0f0] ep   4 loss 1.1048 AUC_val 0.609 (7s) *
+  [r0f0] ep   5 loss 1.1306 AUC_val 0.611 (7s) *
+  [r0f0] ep   6 loss 1.0968 AUC_val 0.596 (7s)
+  [r0f0] ep   7 loss 1.0954 AUC_val 0.632 (6s) *
+  [r0f0] ep   8 loss 1.0755 AUC_val 0.633 (7s) *
+  [r0f0] ep   9 loss 1.0912 AUC_val 0.606 (7s)
+  [r0f0] ep  10 loss 1.1207 AUC_val 0.591 (6s)
+  [r0f0] ep  11 loss 1.0419 AUC_val 0.616 (7s)
+  [r0f0] ep  12 loss 1.1051 AUC_val 0.645 (7s) *
+  [r0f0] ep  13 loss 1.0627 AUC_val 0.688 (6s) *
+  [r0f0] ep  14 loss 1.0680 AUC_val 0.711 (7s) *
+  [r0f0] ep  15 loss 1.0552 AUC_val 0.709 (7s)
+  [r0f0] ep  16 loss 1.0358 AUC_val 0.674 (7s)
+  [r0f0] ep  17 loss 1.0694 AUC_val 0.638 (7s)
+  [r0f0] ep  18 loss 1.0529 AUC_val 0.618 (7s)
+  [r0f0] ep  19 loss 1.0327 AUC_val 0.632 (7s)
+  [r0f0] ep  20 loss 1.0197 AUC_val 0.716 (7s) *
+  [r0f0] ep  21 loss 0.9831 AUC_val 0.740 (7s) *
+  [r0f0] ep  22 loss 1.0238 AUC_val 0.736 (7s)
+  [r0f0] ep  23 loss 0.9881 AUC_val 0.743 (7s) *
+  [r0f0] ep  24 loss 1.0291 AUC_val 0.732 (7s)
+  [r0f0] ep  25 loss 0.9877 AUC_val 0.771 (7s) *
+  [r0f0] ep  26 loss 0.9947 AUC_val 0.760 (8s)
+  [r0f0] ep  27 loss 1.0249 AUC_val 0.799 (9s) *
+  [r0f0] ep  28 loss 0.9662 AUC_val 0.774 (9s)
+  [r0f0] ep  29 loss 0.9752 AUC_val 0.780 (8s)
+  [r0f0] ep  30 loss 0.9719 AUC_val 0.788 (13s)
+  [r0f0] ep  31 loss 0.9515 AUC_val 0.757 (19s)
+  [r0f0] ep  32 loss 0.9746 AUC_val 0.752 (18s)
+  [r0f0] ep  33 loss 0.9984 AUC_val 0.783 (12s)
+  [r0f0] ep  34 loss 0.9357 AUC_val 0.759 (7s)
+  [r0f0] ep  35 loss 0.9530 AUC_val 0.756 (7s)
+  [r0f0] ep  36 loss 0.9473 AUC_val 0.741 (7s)
+  [r0f0] ep  37 loss 0.9482 AUC_val 0.771 (7s)
+  [r0f0] ep  38 loss 0.9401 AUC_val 0.779 (7s)
+  [r0f0] ep  39 loss 0.9138 AUC_val 0.763 (7s)
+  [r0f0] ep  40 loss 0.9132 AUC_val 0.755 (7s)
+  [r0f0] ep  41 loss 0.9138 AUC_val 0.773 (7s)
+  [r0f0] ep  42 loss 0.9000 AUC_val 0.771 (6s)
+  Metadatos AUC 0.693 Sens 0.844 Esp 0.341 VPN 0.860
+  CNN    AUC 0.665 Sens 0.622 Esp 0.587 VPN 0.813
+  OPERA  AUC 0.738 Sens 0.756 Esp 0.548 VPN 0.863
+  Fusion AUC 0.765 Sens 0.689 Esp 0.683 VPN 0.860
+
+=== Repetición 0 | fold 1 ===
+  [r0f1] ep   1 loss 1.1939 AUC_val 0.455 (7s) *
+  [r0f1] ep   2 loss 1.1196 AUC_val 0.565 (7s) *
+  [r0f1] ep   3 loss 1.1079 AUC_val 0.402 (7s)
+  [r0f1] ep   4 loss 1.0861 AUC_val 0.464 (7s)
+  [r0f1] ep   5 loss 1.1209 AUC_val 0.484 (7s)
+  [r0f1] ep   6 loss 1.1421 AUC_val 0.548 (7s)
+  [r0f1] ep   7 loss 1.0862 AUC_val 0.501 (7s)
+  [r0f1] ep   8 loss 1.0760 AUC_val 0.437 (7s)
+  [r0f1] ep   9 loss 1.0489 AUC_val 0.446 (7s)
+  [r0f1] ep  10 loss 1.0983 AUC_val 0.491 (7s)
+  [r0f1] ep  11 loss 1.0788 AUC_val 0.544 (7s)
+  [r0f1] ep  12 loss 1.0417 AUC_val 0.542 (6s)
+  [r0f1] ep  13 loss 1.1002 AUC_val 0.608 (7s) *
+  [r0f1] ep  14 loss 1.0200 AUC_val 0.641 (6s) *
+  [r0f1] ep  15 loss 0.9950 AUC_val 0.613 (6s)
+  [r0f1] ep  16 loss 1.0179 AUC_val 0.604 (6s)
+  [r0f1] ep  17 loss 1.0272 AUC_val 0.621 (7s)
+  [r0f1] ep  18 loss 1.0278 AUC_val 0.622 (7s)
+  [r0f1] ep  19 loss 1.0431 AUC_val 0.619 (8s)
+  [r0f1] ep  20 loss 0.9888 AUC_val 0.628 (8s)
+  [r0f1] ep  21 loss 1.0177 AUC_val 0.629 (7s)
+  [r0f1] ep  22 loss 1.0153 AUC_val 0.686 (7s) *
+  [r0f1] ep  23 loss 0.9748 AUC_val 0.679 (7s)
+  [r0f1] ep  24 loss 0.9871 AUC_val 0.716 (6s) *
+  [r0f1] ep  25 loss 0.9861 AUC_val 0.703 (6s)
+  [r0f1] ep  26 loss 0.9572 AUC_val 0.693 (6s)
+  [r0f1] ep  27 loss 1.0336 AUC_val 0.711 (6s)
+  [r0f1] ep  28 loss 0.9855 AUC_val 0.727 (6s) *
+  [r0f1] ep  29 loss 0.9515 AUC_val 0.710 (6s)
+  [r0f1] ep  30 loss 0.9459 AUC_val 0.711 (6s)
+  [r0f1] ep  31 loss 0.9161 AUC_val 0.715 (7s)
+  [r0f1] ep  32 loss 0.9646 AUC_val 0.704 (7s)
+  [r0f1] ep  33 loss 0.8944 AUC_val 0.686 (6s)
+  [r0f1] ep  34 loss 0.9501 AUC_val 0.720 (6s)
+  [r0f1] ep  35 loss 0.9315 AUC_val 0.722 (6s)
+  [r0f1] ep  36 loss 0.9262 AUC_val 0.749 (6s) *
+  [r0f1] ep  37 loss 0.8989 AUC_val 0.761 (6s) *
+  [r0f1] ep  38 loss 0.8992 AUC_val 0.762 (6s) *
+  [r0f1] ep  39 loss 0.9099 AUC_val 0.799 (7s) *
+  [r0f1] ep  40 loss 0.8997 AUC_val 0.802 (7s) *
+  [r0f1] ep  41 loss 0.8828 AUC_val 0.783 (7s)
+  [r0f1] ep  42 loss 0.8892 AUC_val 0.762 (7s)
+  [r0f1] ep  43 loss 0.8910 AUC_val 0.757 (7s)
+  [r0f1] ep  44 loss 0.8946 AUC_val 0.722 (7s)
+  [r0f1] ep  45 loss 0.8401 AUC_val 0.720 (7s)
+  [r0f1] ep  46 loss 0.8964 AUC_val 0.798 (7s)
+  [r0f1] ep  47 loss 0.8649 AUC_val 0.814 (7s) *
+  [r0f1] ep  48 loss 0.8524 AUC_val 0.807 (8s)
+  [r0f1] ep  49 loss 0.8322 AUC_val 0.786 (8s)
+  [r0f1] ep  50 loss 0.8376 AUC_val 0.781 (7s)
+  [r0f1] ep  51 loss 0.8149 AUC_val 0.771 (7s)
+  [r0f1] ep  52 loss 0.8485 AUC_val 0.768 (7s)
+  [r0f1] ep  53 loss 0.8633 AUC_val 0.775 (7s)
+  [r0f1] ep  54 loss 0.8735 AUC_val 0.775 (7s)
+  [r0f1] ep  55 loss 0.8002 AUC_val 0.771 (7s)
+  [r0f1] ep  56 loss 0.7913 AUC_val 0.769 (7s)
+  [r0f1] ep  57 loss 0.8467 AUC_val 0.769 (7s)
+  [r0f1] ep  58 loss 0.8514 AUC_val 0.768 (7s)
+  [r0f1] ep  59 loss 0.8576 AUC_val 0.769 (7s)
+  [r0f1] ep  60 loss 0.8036 AUC_val 0.771 (7s)
+  Metadatos AUC 0.715 Sens 0.795 Esp 0.441 VPN 0.862
+  CNN    AUC 0.810 Sens 0.955 Esp 0.417 VPN 0.964
+  OPERA  AUC 0.809 Sens 0.932 Esp 0.504 VPN 0.955
+  Fusion AUC 0.844 Sens 1.000 Esp 0.425 VPN 1.000
+
+=== Repetición 0 | fold 2 ===
+  [r0f2] ep   1 loss 1.0894 AUC_val 0.605 (7s) *
+  [r0f2] ep   2 loss 1.1204 AUC_val 0.521 (6s)
+  [r0f2] ep   3 loss 1.0884 AUC_val 0.548 (7s)
+  [r0f2] ep   4 loss 1.1479 AUC_val 0.577 (6s)
+  [r0f2] ep   5 loss 1.1305 AUC_val 0.599 (7s)
+  [r0f2] ep   6 loss 1.0861 AUC_val 0.585 (7s)
+  [r0f2] ep   7 loss 1.0529 AUC_val 0.529 (7s)
+  [r0f2] ep   8 loss 1.0908 AUC_val 0.512 (6s)
+  [r0f2] ep   9 loss 1.0918 AUC_val 0.528 (6s)
+  [r0f2] ep  10 loss 1.1128 AUC_val 0.613 (7s) *
+  [r0f2] ep  11 loss 1.1185 AUC_val 0.603 (7s)
+  [r0f2] ep  12 loss 1.0221 AUC_val 0.599 (7s)
+  [r0f2] ep  13 loss 1.0788 AUC_val 0.497 (8s)
+  [r0f2] ep  14 loss 1.0117 AUC_val 0.546 (8s)
+  [r0f2] ep  15 loss 1.1075 AUC_val 0.653 (7s) *
+  [r0f2] ep  16 loss 1.0316 AUC_val 0.576 (7s)
+  [r0f2] ep  17 loss 1.0543 AUC_val 0.533 (6s)
+  [r0f2] ep  18 loss 1.0145 AUC_val 0.511 (6s)
+  [r0f2] ep  19 loss 1.0084 AUC_val 0.652 (6s)
+  [r0f2] ep  20 loss 1.0350 AUC_val 0.588 (6s)
+  [r0f2] ep  21 loss 1.0095 AUC_val 0.479 (7s)
+  [r0f2] ep  22 loss 0.9863 AUC_val 0.547 (6s)
+  [r0f2] ep  23 loss 1.0252 AUC_val 0.690 (6s) *
+  [r0f2] ep  24 loss 0.9868 AUC_val 0.615 (6s)
+  [r0f2] ep  25 loss 0.9497 AUC_val 0.703 (6s) *
+  [r0f2] ep  26 loss 0.9377 AUC_val 0.697 (6s)
+  [r0f2] ep  27 loss 0.9457 AUC_val 0.751 (6s) *
+  [r0f2] ep  28 loss 0.9136 AUC_val 0.772 (6s) *
+  [r0f2] ep  29 loss 0.9143 AUC_val 0.788 (6s) *
+  [r0f2] ep  30 loss 0.9482 AUC_val 0.800 (6s) *
+  [r0f2] ep  31 loss 0.9085 AUC_val 0.756 (7s)
+  [r0f2] ep  32 loss 0.9292 AUC_val 0.800 (6s)
+  [r0f2] ep  33 loss 0.9146 AUC_val 0.715 (6s)
+  [r0f2] ep  34 loss 0.9069 AUC_val 0.770 (6s)
+  [r0f2] ep  35 loss 0.8816 AUC_val 0.743 (6s)
+  [r0f2] ep  36 loss 0.8634 AUC_val 0.829 (6s) *
+  [r0f2] ep  37 loss 0.8495 AUC_val 0.815 (6s)
+  [r0f2] ep  38 loss 0.8351 AUC_val 0.790 (6s)
+  [r0f2] ep  39 loss 0.8250 AUC_val 0.806 (6s)
+  [r0f2] ep  40 loss 0.8690 AUC_val 0.850 (6s) *
+  [r0f2] ep  41 loss 0.8718 AUC_val 0.839 (7s)
+  [r0f2] ep  42 loss 0.8135 AUC_val 0.850 (8s)
+  [r0f2] ep  43 loss 0.8808 AUC_val 0.843 (7s)
+  [r0f2] ep  44 loss 0.8031 AUC_val 0.838 (7s)
+  [r0f2] ep  45 loss 0.8514 AUC_val 0.833 (7s)
+  [r0f2] ep  46 loss 0.8140 AUC_val 0.837 (6s)
+  [r0f2] ep  47 loss 0.8021 AUC_val 0.849 (6s)
+  [r0f2] ep  48 loss 0.7746 AUC_val 0.856 (6s) *
+  [r0f2] ep  49 loss 0.7881 AUC_val 0.863 (6s) *
+  [r0f2] ep  50 loss 0.7858 AUC_val 0.868 (7s) *
+  [r0f2] ep  51 loss 0.7705 AUC_val 0.864 (7s)
+  [r0f2] ep  52 loss 0.7901 AUC_val 0.863 (6s)
+  [r0f2] ep  53 loss 0.7777 AUC_val 0.867 (6s)
+  [r0f2] ep  54 loss 0.7808 AUC_val 0.869 (6s) *
+  [r0f2] ep  55 loss 0.7997 AUC_val 0.869 (6s)
+  [r0f2] ep  56 loss 0.7800 AUC_val 0.864 (6s)
+  [r0f2] ep  57 loss 0.7494 AUC_val 0.861 (6s)
+  [r0f2] ep  58 loss 0.7755 AUC_val 0.862 (7s)
+  [r0f2] ep  59 loss 0.7959 AUC_val 0.863 (7s)
+  [r0f2] ep  60 loss 0.7745 AUC_val 0.864 (7s)
+  Metadatos AUC 0.530 Sens 0.636 Esp 0.349 VPN 0.733
+  CNN    AUC 0.813 Sens 0.909 Esp 0.460 VPN 0.935
+  OPERA  AUC 0.716 Sens 0.818 Esp 0.365 VPN 0.852
+  Fusion AUC 0.793 Sens 0.886 Esp 0.357 VPN 0.900
+
+=== Repetición 0 | fold 3 ===
+  [r0f3] ep   1 loss 1.1784 AUC_val 0.480 (7s) *
+  [r0f3] ep   2 loss 1.1007 AUC_val 0.403 (7s)
+  [r0f3] ep   3 loss 1.0673 AUC_val 0.409 (7s)
+  [r0f3] ep   4 loss 1.1035 AUC_val 0.421 (6s)
+  [r0f3] ep   5 loss 1.0259 AUC_val 0.415 (6s)
+  [r0f3] ep   6 loss 1.0949 AUC_val 0.393 (6s)
+  [r0f3] ep   7 loss 1.1016 AUC_val 0.408 (7s)
+  [r0f3] ep   8 loss 1.0818 AUC_val 0.450 (6s)
+  [r0f3] ep   9 loss 1.1178 AUC_val 0.513 (6s) *
+  [r0f3] ep  10 loss 1.0724 AUC_val 0.532 (7s) *
+  [r0f3] ep  11 loss 1.0970 AUC_val 0.419 (6s)
+  [r0f3] ep  12 loss 1.0775 AUC_val 0.477 (6s)
+  [r0f3] ep  13 loss 1.0528 AUC_val 0.495 (7s)
+  [r0f3] ep  14 loss 1.0597 AUC_val 0.459 (7s)
+  [r0f3] ep  15 loss 1.0627 AUC_val 0.519 (7s)
+  [r0f3] ep  16 loss 1.0619 AUC_val 0.460 (7s)
+  [r0f3] ep  17 loss 1.0061 AUC_val 0.494 (7s)
+  [r0f3] ep  18 loss 1.0283 AUC_val 0.509 (6s)
+  [r0f3] ep  19 loss 0.9923 AUC_val 0.468 (6s)
+  [r0f3] ep  20 loss 1.0157 AUC_val 0.506 (6s)
+  [r0f3] ep  21 loss 0.9888 AUC_val 0.506 (6s)
+  [r0f3] ep  22 loss 1.0387 AUC_val 0.424 (6s)
+  [r0f3] ep  23 loss 0.9761 AUC_val 0.424 (6s)
+  [r0f3] ep  24 loss 0.9706 AUC_val 0.490 (6s)
+  [r0f3] ep  25 loss 0.9772 AUC_val 0.528 (6s)
+  Metadatos AUC 0.633 Sens 0.818 Esp 0.381 VPN 0.857
+  CNN    AUC 0.507 Sens 0.864 Esp 0.103 VPN 0.684
+  OPERA  AUC 0.806 Sens 0.864 Esp 0.492 VPN 0.912
+  Fusion AUC 0.808 Sens 0.909 Esp 0.556 VPN 0.946
+
+=== Repetición 0 | fold 4 ===
+  [r0f4] ep   1 loss 1.1462 AUC_val 0.526 (7s) *
+  [r0f4] ep   2 loss 1.0977 AUC_val 0.486 (6s)
+  [r0f4] ep   3 loss 1.1132 AUC_val 0.544 (6s) *
+  [r0f4] ep   4 loss 1.1407 AUC_val 0.581 (6s) *
+  [r0f4] ep   5 loss 1.1104 AUC_val 0.649 (7s) *
+  [r0f4] ep   6 loss 1.0630 AUC_val 0.584 (6s)
+  [r0f4] ep   7 loss 1.1252 AUC_val 0.528 (7s)
+  [r0f4] ep   8 loss 1.1539 AUC_val 0.607 (6s)
+  [r0f4] ep   9 loss 1.0570 AUC_val 0.577 (6s)
+  [r0f4] ep  10 loss 1.1000 AUC_val 0.540 (7s)
+  [r0f4] ep  11 loss 1.0996 AUC_val 0.534 (7s)
+  [r0f4] ep  12 loss 1.0529 AUC_val 0.526 (6s)
+  [r0f4] ep  13 loss 1.0795 AUC_val 0.655 (6s) *
+  [r0f4] ep  14 loss 1.0389 AUC_val 0.815 (7s) *
+  [r0f4] ep  15 loss 1.0600 AUC_val 0.762 (7s)
+  [r0f4] ep  16 loss 1.0932 AUC_val 0.759 (7s)
+  [r0f4] ep  17 loss 1.0667 AUC_val 0.447 (7s)
+  [r0f4] ep  18 loss 1.0724 AUC_val 0.616 (7s)
+  [r0f4] ep  19 loss 1.0348 AUC_val 0.786 (8s)
+  [r0f4] ep  20 loss 1.0222 AUC_val 0.581 (7s)
+  [r0f4] ep  21 loss 0.9865 AUC_val 0.687 (7s)
+  [r0f4] ep  22 loss 1.0295 AUC_val 0.703 (6s)
+  [r0f4] ep  23 loss 0.9996 AUC_val 0.636 (6s)
+  [r0f4] ep  24 loss 0.9873 AUC_val 0.661 (6s)
+  [r0f4] ep  25 loss 1.0184 AUC_val 0.706 (7s)
+  [r0f4] ep  26 loss 0.9669 AUC_val 0.716 (6s)
+  [r0f4] ep  27 loss 0.9369 AUC_val 0.734 (6s)
+  [r0f4] ep  28 loss 0.9920 AUC_val 0.648 (7s)
+  [r0f4] ep  29 loss 0.9173 AUC_val 0.732 (7s)
+  Metadatos AUC 0.688 Sens 0.750 Esp 0.433 VPN 0.833
+  CNN    AUC 0.751 Sens 0.705 Esp 0.520 VPN 0.835
+  OPERA  AUC 0.554 Sens 0.318 Esp 0.748 VPN 0.760
+  Fusion AUC 0.653 Sens 0.432 Esp 0.772 VPN 0.797
+
+=== Repetición 1 | fold 0 ===
+  [r1f0] ep   1 loss 1.0923 AUC_val 0.483 (6s) *
+  [r1f0] ep   2 loss 1.1234 AUC_val 0.621 (6s) *
+  [r1f0] ep   3 loss 1.1035 AUC_val 0.528 (6s)
+  [r1f0] ep   4 loss 1.1573 AUC_val 0.494 (6s)
+  [r1f0] ep   5 loss 1.1163 AUC_val 0.452 (6s)
+  [r1f0] ep   6 loss 1.1008 AUC_val 0.447 (6s)
+  [r1f0] ep   7 loss 1.1014 AUC_val 0.505 (6s)
+  [r1f0] ep   8 loss 1.0505 AUC_val 0.518 (6s)
+  [r1f0] ep   9 loss 1.0318 AUC_val 0.529 (6s)
+  [r1f0] ep  10 loss 1.0737 AUC_val 0.562 (6s)
+  [r1f0] ep  11 loss 1.1507 AUC_val 0.522 (6s)
+  [r1f0] ep  12 loss 1.0428 AUC_val 0.507 (6s)
+  [r1f0] ep  13 loss 1.0698 AUC_val 0.598 (6s)
+  [r1f0] ep  14 loss 1.0536 AUC_val 0.597 (6s)
+  [r1f0] ep  15 loss 1.0597 AUC_val 0.616 (7s)
+  [r1f0] ep  16 loss 1.0743 AUC_val 0.585 (7s)
+  [r1f0] ep  17 loss 1.0080 AUC_val 0.597 (7s)
+  Metadatos AUC 0.789 Sens 0.977 Esp 0.016 VPN 0.667
+  CNN    AUC 0.559 Sens 0.727 Esp 0.394 VPN 0.806
+  OPERA  AUC 0.779 Sens 0.955 Esp 0.220 VPN 0.933
+  Fusion AUC 0.780 Sens 0.955 Esp 0.244 VPN 0.939
+
+=== Repetición 1 | fold 1 ===
+  [r1f1] ep   1 loss 1.6378 AUC_val 0.455 (6s) *
+  [r1f1] ep   2 loss 1.2237 AUC_val 0.442 (6s)
+  [r1f1] ep   3 loss 1.1284 AUC_val 0.565 (6s) *
+  [r1f1] ep   4 loss 1.1636 AUC_val 0.643 (6s) *
+  [r1f1] ep   5 loss 1.1320 AUC_val 0.698 (6s) *
+  [r1f1] ep   6 loss 1.1110 AUC_val 0.720 (6s) *
+  [r1f1] ep   7 loss 1.0982 AUC_val 0.688 (6s)
+  [r1f1] ep   8 loss 1.0919 AUC_val 0.631 (6s)
+  [r1f1] ep   9 loss 1.1445 AUC_val 0.548 (6s)
+  [r1f1] ep  10 loss 1.0780 AUC_val 0.544 (6s)
+  [r1f1] ep  11 loss 1.0800 AUC_val 0.533 (6s)
+  [r1f1] ep  12 loss 1.0967 AUC_val 0.604 (6s)
+  [r1f1] ep  13 loss 1.0404 AUC_val 0.602 (6s)
+  [r1f1] ep  14 loss 1.0804 AUC_val 0.646 (6s)
+  [r1f1] ep  15 loss 1.0485 AUC_val 0.675 (6s)
+  [r1f1] ep  16 loss 1.0471 AUC_val 0.677 (6s)
+  [r1f1] ep  17 loss 1.0398 AUC_val 0.700 (6s)
+  [r1f1] ep  18 loss 1.0553 AUC_val 0.679 (6s)
+  [r1f1] ep  19 loss 1.0653 AUC_val 0.633 (6s)
+  [r1f1] ep  20 loss 1.0081 AUC_val 0.704 (6s)
+  [r1f1] ep  21 loss 1.0414 AUC_val 0.702 (6s)
+  Metadatos AUC 0.632 Sens 0.911 Esp 0.127 VPN 0.800
+  CNN    AUC 0.578 Sens 0.711 Esp 0.365 VPN 0.780
+  OPERA  AUC 0.780 Sens 0.889 Esp 0.405 VPN 0.911
+  Fusion AUC 0.786 Sens 0.889 Esp 0.476 VPN 0.923
+
+=== Repetición 1 | fold 2 ===
+  [r1f2] ep   1 loss 1.1060 AUC_val 0.549 (6s) *
+  [r1f2] ep   2 loss 1.0413 AUC_val 0.642 (6s) *
+  [r1f2] ep   3 loss 1.1346 AUC_val 0.577 (6s)
+  [r1f2] ep   4 loss 1.0962 AUC_val 0.615 (6s)
+  [r1f2] ep   5 loss 1.0846 AUC_val 0.583 (7s)
+  [r1f2] ep   6 loss 1.1143 AUC_val 0.625 (7s)
+  [r1f2] ep   7 loss 1.0781 AUC_val 0.567 (7s)
+  [r1f2] ep   8 loss 1.0810 AUC_val 0.541 (7s)
+  [r1f2] ep   9 loss 1.0157 AUC_val 0.582 (6s)
+  [r1f2] ep  10 loss 1.0858 AUC_val 0.605 (6s)
+  [r1f2] ep  11 loss 1.0726 AUC_val 0.639 (6s)
+  [r1f2] ep  12 loss 1.0497 AUC_val 0.644 (6s) *
+  [r1f2] ep  13 loss 1.0804 AUC_val 0.584 (6s)
+  [r1f2] ep  14 loss 1.0469 AUC_val 0.614 (6s)
+  [r1f2] ep  15 loss 1.0029 AUC_val 0.548 (6s)
+  [r1f2] ep  16 loss 1.0658 AUC_val 0.656 (6s) *
+  [r1f2] ep  17 loss 1.1530 AUC_val 0.669 (6s) *
+  [r1f2] ep  18 loss 1.0639 AUC_val 0.705 (6s) *
+  [r1f2] ep  19 loss 1.0347 AUC_val 0.638 (6s)
+  [r1f2] ep  20 loss 0.9902 AUC_val 0.687 (6s)
+  [r1f2] ep  21 loss 1.0006 AUC_val 0.691 (6s)
+  [r1f2] ep  22 loss 1.0489 AUC_val 0.640 (6s)
+  [r1f2] ep  23 loss 1.0006 AUC_val 0.650 (6s)
+  [r1f2] ep  24 loss 1.0316 AUC_val 0.679 (6s)
+  [r1f2] ep  25 loss 0.9825 AUC_val 0.676 (6s)
+  [r1f2] ep  26 loss 0.9892 AUC_val 0.670 (6s)
+  [r1f2] ep  27 loss 0.9556 AUC_val 0.668 (6s)
+  [r1f2] ep  28 loss 0.9374 AUC_val 0.712 (6s) *
+  [r1f2] ep  29 loss 0.9465 AUC_val 0.700 (6s)
+  [r1f2] ep  30 loss 0.9739 AUC_val 0.731 (6s) *
+  [r1f2] ep  31 loss 0.8940 AUC_val 0.682 (6s)
+  [r1f2] ep  32 loss 0.9004 AUC_val 0.737 (6s) *
+  [r1f2] ep  33 loss 0.9379 AUC_val 0.698 (6s)
+  [r1f2] ep  34 loss 0.9662 AUC_val 0.727 (6s)
+  [r1f2] ep  35 loss 0.8712 AUC_val 0.759 (7s) *
+  [r1f2] ep  36 loss 0.8970 AUC_val 0.754 (6s)
+  [r1f2] ep  37 loss 0.8207 AUC_val 0.734 (8s)
+  [r1f2] ep  38 loss 0.8820 AUC_val 0.725 (7s)
+  [r1f2] ep  39 loss 0.8530 AUC_val 0.671 (7s)
+  [r1f2] ep  40 loss 0.8758 AUC_val 0.705 (7s)
+  [r1f2] ep  41 loss 0.8691 AUC_val 0.763 (7s) *
+  [r1f2] ep  42 loss 0.8035 AUC_val 0.799 (6s) *
+  [r1f2] ep  43 loss 0.8146 AUC_val 0.796 (6s)
+  [r1f2] ep  44 loss 0.7657 AUC_val 0.790 (6s)
+  [r1f2] ep  45 loss 0.8453 AUC_val 0.776 (6s)
+  [r1f2] ep  46 loss 0.7790 AUC_val 0.786 (6s)
+  [r1f2] ep  47 loss 0.8073 AUC_val 0.795 (6s)
+  [r1f2] ep  48 loss 0.7804 AUC_val 0.793 (6s)
+  [r1f2] ep  49 loss 0.8206 AUC_val 0.783 (7s)
+  [r1f2] ep  50 loss 0.8339 AUC_val 0.798 (7s)
+  [r1f2] ep  51 loss 0.7895 AUC_val 0.793 (7s)
+  [r1f2] ep  52 loss 0.7991 AUC_val 0.795 (7s)
+  [r1f2] ep  53 loss 0.8046 AUC_val 0.792 (7s)
+  [r1f2] ep  54 loss 0.8067 AUC_val 0.800 (7s) *
+  [r1f2] ep  55 loss 0.7828 AUC_val 0.803 (7s) *
+  [r1f2] ep  56 loss 0.7654 AUC_val 0.805 (7s) *
+  [r1f2] ep  57 loss 0.7939 AUC_val 0.807 (6s) *
+  [r1f2] ep  58 loss 0.7232 AUC_val 0.806 (6s)
+  [r1f2] ep  59 loss 0.7271 AUC_val 0.807 (6s)
+  [r1f2] ep  60 loss 0.7946 AUC_val 0.810 (7s) *
+  Metadatos AUC 0.580 Sens 0.523 Esp 0.508 VPN 0.753
+  CNN    AUC 0.751 Sens 0.773 Esp 0.524 VPN 0.868
+  OPERA  AUC 0.611 Sens 0.500 Esp 0.667 VPN 0.792
+  Fusion AUC 0.708 Sens 0.591 Esp 0.698 VPN 0.830
+
+=== Repetición 1 | fold 3 ===
+  [r1f3] ep   1 loss 1.1028 AUC_val 0.424 (6s) *
+  [r1f3] ep   2 loss 1.0900 AUC_val 0.485 (6s) *
+  [r1f3] ep   3 loss 1.0989 AUC_val 0.449 (6s)
+  [r1f3] ep   4 loss 1.1005 AUC_val 0.502 (6s) *
+  [r1f3] ep   5 loss 1.1214 AUC_val 0.502 (6s)
+  [r1f3] ep   6 loss 1.0838 AUC_val 0.485 (6s)
+  [r1f3] ep   7 loss 1.0603 AUC_val 0.411 (6s)
+  [r1f3] ep   8 loss 1.0712 AUC_val 0.577 (6s) *
+  [r1f3] ep   9 loss 1.1130 AUC_val 0.587 (6s) *
+  [r1f3] ep  10 loss 1.0519 AUC_val 0.585 (6s)
+  [r1f3] ep  11 loss 1.0922 AUC_val 0.551 (6s)
+  [r1f3] ep  12 loss 1.1044 AUC_val 0.630 (6s) *
+  [r1f3] ep  13 loss 1.0395 AUC_val 0.678 (6s) *
+  [r1f3] ep  14 loss 1.1134 AUC_val 0.670 (6s)
+  [r1f3] ep  15 loss 1.0315 AUC_val 0.641 (6s)
+  [r1f3] ep  16 loss 1.0239 AUC_val 0.659 (6s)
+  [r1f3] ep  17 loss 1.0259 AUC_val 0.671 (6s)
+  [r1f3] ep  18 loss 1.0212 AUC_val 0.659 (6s)
+  [r1f3] ep  19 loss 1.0597 AUC_val 0.562 (6s)
+  [r1f3] ep  20 loss 1.0693 AUC_val 0.579 (6s)
+  [r1f3] ep  21 loss 1.0779 AUC_val 0.588 (7s)
+  [r1f3] ep  22 loss 1.0519 AUC_val 0.571 (6s)
+  [r1f3] ep  23 loss 0.9905 AUC_val 0.496 (6s)
+  [r1f3] ep  24 loss 1.0151 AUC_val 0.523 (6s)
+  [r1f3] ep  25 loss 1.0310 AUC_val 0.538 (7s)
+  [r1f3] ep  26 loss 1.0249 AUC_val 0.584 (7s)
+  [r1f3] ep  27 loss 0.9881 AUC_val 0.509 (7s)
+  [r1f3] ep  28 loss 0.9875 AUC_val 0.492 (7s)
+  Metadatos AUC 0.757 Sens 0.682 Esp 0.606 VPN 0.846
+  CNN    AUC 0.708 Sens 0.750 Esp 0.496 VPN 0.851
+  OPERA  AUC 0.796 Sens 0.932 Esp 0.504 VPN 0.955
+  Fusion AUC 0.826 Sens 0.909 Esp 0.535 VPN 0.944
+
+=== Repetición 1 | fold 4 ===
+  [r1f4] ep   1 loss 1.6199 AUC_val 0.589 (6s) *
+  [r1f4] ep   2 loss 1.1849 AUC_val 0.400 (6s)
+  [r1f4] ep   3 loss 1.1278 AUC_val 0.623 (6s) *
+  [r1f4] ep   4 loss 1.0603 AUC_val 0.566 (6s)
+  [r1f4] ep   5 loss 1.0995 AUC_val 0.519 (7s)
+  [r1f4] ep   6 loss 1.0859 AUC_val 0.504 (6s)
+  [r1f4] ep   7 loss 1.0669 AUC_val 0.481 (7s)
+  [r1f4] ep   8 loss 1.0641 AUC_val 0.457 (7s)
+  [r1f4] ep   9 loss 1.0679 AUC_val 0.429 (6s)
+  [r1f4] ep  10 loss 1.0765 AUC_val 0.374 (7s)
+  [r1f4] ep  11 loss 1.0659 AUC_val 0.360 (7s)
+  [r1f4] ep  12 loss 1.0821 AUC_val 0.506 (6s)
+  [r1f4] ep  13 loss 1.0995 AUC_val 0.427 (6s)
+  [r1f4] ep  14 loss 1.0582 AUC_val 0.418 (6s)
+  [r1f4] ep  15 loss 1.0505 AUC_val 0.440 (6s)
+  [r1f4] ep  16 loss 0.9865 AUC_val 0.473 (7s)
+  [r1f4] ep  17 loss 1.0173 AUC_val 0.493 (7s)
+  [r1f4] ep  18 loss 1.0569 AUC_val 0.553 (6s)
+  Metadatos AUC 0.586 Sens 0.841 Esp 0.270 VPN 0.829
+  CNN    AUC 0.566 Sens 0.795 Esp 0.190 VPN 0.727
+  OPERA  AUC 0.595 Sens 0.523 Esp 0.643 VPN 0.794
+  Fusion AUC 0.618 Sens 0.477 Esp 0.698 VPN 0.793
+
+=== Repetición 2 | fold 0 ===
+  [r2f0] ep   1 loss 1.2518 AUC_val 0.417 (6s) *
+  [r2f0] ep   2 loss 1.1881 AUC_val 0.511 (6s) *
+  [r2f0] ep   3 loss 1.0906 AUC_val 0.461 (6s)
+  [r2f0] ep   4 loss 1.1377 AUC_val 0.392 (6s)
+  [r2f0] ep   5 loss 1.0736 AUC_val 0.466 (6s)
+  [r2f0] ep   6 loss 1.1048 AUC_val 0.417 (8s)
+  [r2f0] ep   7 loss 1.0755 AUC_val 0.354 (7s)
+  [r2f0] ep   8 loss 1.1135 AUC_val 0.445 (7s)
+  [r2f0] ep   9 loss 1.1597 AUC_val 0.512 (7s) *
+  [r2f0] ep  10 loss 1.0935 AUC_val 0.682 (7s) *
+  [r2f0] ep  11 loss 1.0952 AUC_val 0.652 (7s)
+  [r2f0] ep  12 loss 1.0673 AUC_val 0.452 (7s)
+  [r2f0] ep  13 loss 1.0799 AUC_val 0.639 (6s)
+  [r2f0] ep  14 loss 1.0757 AUC_val 0.624 (7s)
+  [r2f0] ep  15 loss 1.0088 AUC_val 0.555 (7s)
+  [r2f0] ep  16 loss 1.1000 AUC_val 0.588 (6s)
+  [r2f0] ep  17 loss 1.1209 AUC_val 0.569 (6s)
+  [r2f0] ep  18 loss 1.0157 AUC_val 0.532 (6s)
+  [r2f0] ep  19 loss 1.0262 AUC_val 0.650 (6s)
+  [r2f0] ep  20 loss 1.0718 AUC_val 0.587 (6s)
+  [r2f0] ep  21 loss 1.0261 AUC_val 0.588 (6s)
+  [r2f0] ep  22 loss 0.9850 AUC_val 0.642 (6s)
+  [r2f0] ep  23 loss 1.0067 AUC_val 0.643 (6s)
+  [r2f0] ep  24 loss 1.0390 AUC_val 0.521 (6s)
+  [r2f0] ep  25 loss 0.9744 AUC_val 0.574 (6s)
+  Metadatos AUC 0.711 Sens 0.864 Esp 0.236 VPN 0.833
+  CNN    AUC 0.590 Sens 0.886 Esp 0.189 VPN 0.828
+  OPERA  AUC 0.719 Sens 0.886 Esp 0.370 VPN 0.904
+  Fusion AUC 0.693 Sens 0.773 Esp 0.457 VPN 0.853
+
+=== Repetición 2 | fold 1 ===
+  [r2f1] ep   1 loss 1.2363 AUC_val 0.260 (6s) *
+  [r2f1] ep   2 loss 1.1060 AUC_val 0.583 (6s) *
+  [r2f1] ep   3 loss 1.1388 AUC_val 0.464 (6s)
+  [r2f1] ep   4 loss 1.0920 AUC_val 0.511 (6s)
+  [r2f1] ep   5 loss 1.1244 AUC_val 0.511 (6s)
+  [r2f1] ep   6 loss 1.1413 AUC_val 0.546 (6s)
+  [r2f1] ep   7 loss 1.1119 AUC_val 0.549 (6s)
+  [r2f1] ep   8 loss 1.0807 AUC_val 0.508 (6s)
+  [r2f1] ep   9 loss 1.0773 AUC_val 0.545 (8s)
+  [r2f1] ep  10 loss 1.1022 AUC_val 0.590 (7s) *
+  [r2f1] ep  11 loss 1.0572 AUC_val 0.647 (7s) *
+  [r2f1] ep  12 loss 1.0231 AUC_val 0.584 (7s)
+  [r2f1] ep  13 loss 1.0783 AUC_val 0.513 (6s)
+  [r2f1] ep  14 loss 1.0225 AUC_val 0.465 (6s)
+  [r2f1] ep  15 loss 1.1553 AUC_val 0.613 (6s)
+  [r2f1] ep  16 loss 1.0886 AUC_val 0.607 (6s)
+  [r2f1] ep  17 loss 1.0428 AUC_val 0.595 (6s)
+  [r2f1] ep  18 loss 1.0240 AUC_val 0.579 (6s)
+  [r2f1] ep  19 loss 1.0392 AUC_val 0.528 (6s)
+  [r2f1] ep  20 loss 1.0380 AUC_val 0.671 (6s) *
+  [r2f1] ep  21 loss 1.0107 AUC_val 0.612 (6s)
+  [r2f1] ep  22 loss 0.9743 AUC_val 0.613 (6s)
+  [r2f1] ep  23 loss 0.9768 AUC_val 0.618 (6s)
+  [r2f1] ep  24 loss 1.0253 AUC_val 0.671 (6s) *
+  [r2f1] ep  25 loss 0.9589 AUC_val 0.688 (6s) *
+  [r2f1] ep  26 loss 0.9832 AUC_val 0.653 (6s)
+  [r2f1] ep  27 loss 0.9617 AUC_val 0.619 (6s)
+  [r2f1] ep  28 loss 0.9414 AUC_val 0.572 (6s)
+  [r2f1] ep  29 loss 0.9559 AUC_val 0.558 (7s)
+  [r2f1] ep  30 loss 0.9571 AUC_val 0.631 (6s)
+  [r2f1] ep  31 loss 0.9426 AUC_val 0.622 (7s)
+  [r2f1] ep  32 loss 0.9038 AUC_val 0.694 (7s) *
+  [r2f1] ep  33 loss 0.9027 AUC_val 0.569 (6s)
+  [r2f1] ep  34 loss 0.8936 AUC_val 0.554 (6s)
+  [r2f1] ep  35 loss 0.8734 AUC_val 0.604 (6s)
+  [r2f1] ep  36 loss 0.8610 AUC_val 0.550 (6s)
+  [r2f1] ep  37 loss 0.8211 AUC_val 0.572 (7s)
+  [r2f1] ep  38 loss 0.8587 AUC_val 0.540 (8s)
+  [r2f1] ep  39 loss 0.8444 AUC_val 0.574 (7s)
+  [r2f1] ep  40 loss 0.8266 AUC_val 0.643 (7s)
+  [r2f1] ep  41 loss 0.8407 AUC_val 0.654 (7s)
+  [r2f1] ep  42 loss 0.8488 AUC_val 0.609 (6s)
+  [r2f1] ep  43 loss 0.7820 AUC_val 0.622 (6s)
+  [r2f1] ep  44 loss 0.8214 AUC_val 0.664 (6s)
+  [r2f1] ep  45 loss 0.8405 AUC_val 0.689 (6s)
+  [r2f1] ep  46 loss 0.8501 AUC_val 0.693 (6s)
+  [r2f1] ep  47 loss 0.7715 AUC_val 0.633 (6s)
+  Metadatos AUC 0.738 Sens 0.844 Esp 0.230 VPN 0.806
+  CNN    AUC 0.697 Sens 0.844 Esp 0.381 VPN 0.873
+  OPERA  AUC 0.698 Sens 0.933 Esp 0.159 VPN 0.870
+  Fusion AUC 0.749 Sens 0.889 Esp 0.325 VPN 0.891
+
+=== Repetición 2 | fold 2 ===
+  [r2f2] ep   1 loss 1.4609 AUC_val 0.523 (6s) *
+  [r2f2] ep   2 loss 1.1345 AUC_val 0.365 (6s)
+  [r2f2] ep   3 loss 1.1299 AUC_val 0.363 (6s)
+  [r2f2] ep   4 loss 1.1063 AUC_val 0.336 (6s)
+  [r2f2] ep   5 loss 1.1082 AUC_val 0.343 (6s)
+  [r2f2] ep   6 loss 1.0886 AUC_val 0.430 (6s)
+  [r2f2] ep   7 loss 1.0842 AUC_val 0.473 (6s)
+  [r2f2] ep   8 loss 1.0631 AUC_val 0.478 (6s)
+  [r2f2] ep   9 loss 1.0675 AUC_val 0.409 (6s)
+  [r2f2] ep  10 loss 1.0759 AUC_val 0.376 (7s)
+  [r2f2] ep  11 loss 1.0712 AUC_val 0.474 (6s)
+  [r2f2] ep  12 loss 1.0790 AUC_val 0.479 (7s)
+  [r2f2] ep  13 loss 1.0052 AUC_val 0.405 (6s)
+  [r2f2] ep  14 loss 1.0401 AUC_val 0.395 (6s)
+  [r2f2] ep  15 loss 1.0683 AUC_val 0.391 (6s)
+  [r2f2] ep  16 loss 1.0119 AUC_val 0.475 (6s)
+  Metadatos AUC 0.487 Sens 0.614 Esp 0.302 VPN 0.691
+  CNN    AUC 0.474 Sens 0.977 Esp 0.032 VPN 0.800
+  OPERA  AUC 0.760 Sens 0.886 Esp 0.365 VPN 0.902
+  Fusion AUC 0.760 Sens 0.886 Esp 0.365 VPN 0.902
+
+=== Repetición 2 | fold 3 ===
+  [r2f3] ep   1 loss 1.0463 AUC_val 0.623 (6s) *
+  [r2f3] ep   2 loss 1.0665 AUC_val 0.543 (8s)
+  [r2f3] ep   3 loss 1.0693 AUC_val 0.414 (7s)
+  [r2f3] ep   4 loss 1.0985 AUC_val 0.371 (7s)
+  [r2f3] ep   5 loss 1.0718 AUC_val 0.382 (7s)
+  [r2f3] ep   6 loss 1.0622 AUC_val 0.354 (7s)
+  [r2f3] ep   7 loss 1.0875 AUC_val 0.429 (7s)
+  [r2f3] ep   8 loss 1.1095 AUC_val 0.369 (7s)
+  [r2f3] ep   9 loss 1.0689 AUC_val 0.551 (7s)
+  [r2f3] ep  10 loss 1.0837 AUC_val 0.686 (7s) *
+  [r2f3] ep  11 loss 1.1050 AUC_val 0.557 (7s)
+  [r2f3] ep  12 loss 1.0702 AUC_val 0.427 (7s)
+  [r2f3] ep  13 loss 1.0467 AUC_val 0.422 (7s)
+  [r2f3] ep  14 loss 1.0381 AUC_val 0.503 (7s)
+  [r2f3] ep  15 loss 0.9987 AUC_val 0.497 (6s)
+  [r2f3] ep  16 loss 1.0288 AUC_val 0.512 (6s)
+  [r2f3] ep  17 loss 1.0830 AUC_val 0.461 (6s)
+  [r2f3] ep  18 loss 1.0339 AUC_val 0.421 (6s)
+  [r2f3] ep  19 loss 1.0024 AUC_val 0.569 (7s)
+  [r2f3] ep  20 loss 1.0015 AUC_val 0.558 (6s)
+  [r2f3] ep  21 loss 1.0270 AUC_val 0.534 (7s)
+  [r2f3] ep  22 loss 0.9755 AUC_val 0.456 (6s)
+  [r2f3] ep  23 loss 0.9355 AUC_val 0.537 (6s)
+  [r2f3] ep  24 loss 0.9573 AUC_val 0.517 (7s)
+  [r2f3] ep  25 loss 0.9947 AUC_val 0.569 (7s)
+  Metadatos AUC 0.647 Sens 0.750 Esp 0.323 VPN 0.788
+  CNN    AUC 0.514 Sens 0.864 Esp 0.189 VPN 0.800
+  OPERA  AUC 0.602 Sens 0.341 Esp 0.701 VPN 0.754
+  Fusion AUC 0.608 Sens 0.432 Esp 0.677 VPN 0.775
+
+=== Repetición 2 | fold 4 ===
+  [r2f4] ep   1 loss 1.2886 AUC_val 0.630 (6s) *
+  [r2f4] ep   2 loss 1.1678 AUC_val 0.525 (6s)
+  [r2f4] ep   3 loss 1.1046 AUC_val 0.421 (7s)
+  [r2f4] ep   4 loss 1.0937 AUC_val 0.351 (6s)
+  [r2f4] ep   5 loss 1.1295 AUC_val 0.319 (7s)
+  [r2f4] ep   6 loss 1.0995 AUC_val 0.322 (7s)
+  [r2f4] ep   7 loss 1.0868 AUC_val 0.382 (7s)
+  [r2f4] ep   8 loss 1.0836 AUC_val 0.414 (7s)
+  [r2f4] ep   9 loss 1.0394 AUC_val 0.492 (7s)
+  [r2f4] ep  10 loss 1.0813 AUC_val 0.479 (6s)
+  [r2f4] ep  11 loss 1.0504 AUC_val 0.370 (6s)
+  [r2f4] ep  12 loss 1.1079 AUC_val 0.395 (7s)
+  [r2f4] ep  13 loss 1.0441 AUC_val 0.381 (6s)
+  [r2f4] ep  14 loss 1.0714 AUC_val 0.411 (6s)
+  [r2f4] ep  15 loss 1.0760 AUC_val 0.526 (6s)
+  [r2f4] ep  16 loss 1.0034 AUC_val 0.426 (6s)
+  Metadatos AUC 0.602 Sens 0.795 Esp 0.262 VPN 0.786
+  CNN    AUC 0.563 Sens 0.818 Esp 0.254 VPN 0.800
+  OPERA  AUC 0.712 Sens 0.591 Esp 0.611 VPN 0.811
+  Fusion AUC 0.709 Sens 0.591 Esp 0.611 VPN 0.811
+
+=== Repetición 3 | fold 0 ===
+  [r3f0] ep   1 loss 1.1086 AUC_val 0.478 (6s) *
+  [r3f0] ep   2 loss 1.1290 AUC_val 0.536 (7s) *
+  [r3f0] ep   3 loss 1.1718 AUC_val 0.606 (7s) *
+  [r3f0] ep   4 loss 1.1233 AUC_val 0.568 (7s)
+  [r3f0] ep   5 loss 1.1457 AUC_val 0.590 (6s)
+  [r3f0] ep   6 loss 1.0897 AUC_val 0.489 (6s)
+  [r3f0] ep   7 loss 1.1200 AUC_val 0.500 (6s)
+  [r3f0] ep   8 loss 1.1214 AUC_val 0.506 (7s)
+  [r3f0] ep   9 loss 1.0877 AUC_val 0.598 (6s)
+  [r3f0] ep  10 loss 1.0916 AUC_val 0.510 (6s)
+  [r3f0] ep  11 loss 1.1161 AUC_val 0.595 (7s)
+  [r3f0] ep  12 loss 1.0580 AUC_val 0.593 (7s)
+  [r3f0] ep  13 loss 1.0725 AUC_val 0.631 (11s) *
+  [r3f0] ep  14 loss 1.0599 AUC_val 0.615 (18s)
+  [r3f0] ep  15 loss 1.0442 AUC_val 0.580 (17s)
+  [r3f0] ep  16 loss 1.0939 AUC_val 0.637 (16s) *
+  [r3f0] ep  17 loss 1.0218 AUC_val 0.668 (20s) *
+  [r3f0] ep  18 loss 1.0670 AUC_val 0.641 (13s)
+  [r3f0] ep  19 loss 1.0210 AUC_val 0.627 (7s)
+  [r3f0] ep  20 loss 1.0410 AUC_val 0.585 (7s)
+  [r3f0] ep  21 loss 1.0457 AUC_val 0.555 (6s)
+  [r3f0] ep  22 loss 0.9957 AUC_val 0.587 (7s)
+  [r3f0] ep  23 loss 0.9448 AUC_val 0.635 (7s)
+  [r3f0] ep  24 loss 0.9827 AUC_val 0.647 (7s)
+  [r3f0] ep  25 loss 0.9836 AUC_val 0.665 (7s)
+  [r3f0] ep  26 loss 0.9496 AUC_val 0.741 (7s) *
+  [r3f0] ep  27 loss 0.9481 AUC_val 0.695 (6s)
+  [r3f0] ep  28 loss 1.0136 AUC_val 0.673 (6s)
+  [r3f0] ep  29 loss 0.9538 AUC_val 0.703 (7s)
+  [r3f0] ep  30 loss 0.9685 AUC_val 0.756 (7s) *
+  [r3f0] ep  31 loss 0.9473 AUC_val 0.701 (6s)
+  [r3f0] ep  32 loss 0.9923 AUC_val 0.602 (7s)
+  [r3f0] ep  33 loss 0.9428 AUC_val 0.590 (7s)
+  [r3f0] ep  34 loss 0.9443 AUC_val 0.613 (7s)
+  [r3f0] ep  35 loss 0.9405 AUC_val 0.694 (7s)
+  [r3f0] ep  36 loss 1.0101 AUC_val 0.700 (7s)
+  [r3f0] ep  37 loss 0.9096 AUC_val 0.689 (6s)
+  [r3f0] ep  38 loss 0.8939 AUC_val 0.723 (7s)
+  [r3f0] ep  39 loss 0.8620 AUC_val 0.703 (7s)
+  [r3f0] ep  40 loss 0.9019 AUC_val 0.656 (6s)
+  [r3f0] ep  41 loss 0.8886 AUC_val 0.647 (6s)
+  [r3f0] ep  42 loss 0.8603 AUC_val 0.653 (6s)
+  [r3f0] ep  43 loss 0.8040 AUC_val 0.655 (7s)
+  [r3f0] ep  44 loss 0.8286 AUC_val 0.636 (6s)
+  [r3f0] ep  45 loss 0.7921 AUC_val 0.664 (6s)
+  Metadatos AUC 0.764 Sens 1.000 Esp 0.150 VPN 1.000
+  CNN    AUC 0.725 Sens 0.818 Esp 0.535 VPN 0.895
+  OPERA  AUC 0.834 Sens 0.977 Esp 0.315 VPN 0.976
+  Fusion AUC 0.841 Sens 0.886 Esp 0.488 VPN 0.925
+
+=== Repetición 3 | fold 1 ===
+  [r3f1] ep   1 loss 1.0889 AUC_val 0.629 (6s) *
+  [r3f1] ep   2 loss 1.0972 AUC_val 0.466 (6s)
+  [r3f1] ep   3 loss 1.1223 AUC_val 0.409 (6s)
+  [r3f1] ep   4 loss 1.1185 AUC_val 0.433 (6s)
+  [r3f1] ep   5 loss 1.0830 AUC_val 0.442 (6s)
+  [r3f1] ep   6 loss 1.1181 AUC_val 0.450 (7s)
+  [r3f1] ep   7 loss 1.1311 AUC_val 0.505 (6s)
+  [r3f1] ep   8 loss 1.0832 AUC_val 0.471 (6s)
+  [r3f1] ep   9 loss 1.1075 AUC_val 0.543 (7s)
+  [r3f1] ep  10 loss 1.1290 AUC_val 0.520 (7s)
+  [r3f1] ep  11 loss 1.0994 AUC_val 0.575 (6s)
+  [r3f1] ep  12 loss 1.0457 AUC_val 0.644 (6s) *
+  [r3f1] ep  13 loss 1.0645 AUC_val 0.678 (6s) *
+  [r3f1] ep  14 loss 1.0218 AUC_val 0.716 (7s) *
+  [r3f1] ep  15 loss 1.0535 AUC_val 0.751 (7s) *
+  [r3f1] ep  16 loss 0.9784 AUC_val 0.716 (6s)
+  [r3f1] ep  17 loss 1.0472 AUC_val 0.772 (6s) *
+  [r3f1] ep  18 loss 1.0827 AUC_val 0.650 (6s)
+  [r3f1] ep  19 loss 0.9991 AUC_val 0.758 (6s)
+  [r3f1] ep  20 loss 1.0713 AUC_val 0.770 (6s)
+  [r3f1] ep  21 loss 0.9952 AUC_val 0.812 (7s) *
+  [r3f1] ep  22 loss 0.9891 AUC_val 0.784 (6s)
+  [r3f1] ep  23 loss 0.9485 AUC_val 0.797 (6s)
+  [r3f1] ep  24 loss 0.9703 AUC_val 0.781 (7s)
+  [r3f1] ep  25 loss 0.9879 AUC_val 0.858 (7s) *
+  [r3f1] ep  26 loss 0.9607 AUC_val 0.805 (6s)
+  [r3f1] ep  27 loss 0.9831 AUC_val 0.817 (6s)
+  [r3f1] ep  28 loss 0.9496 AUC_val 0.845 (6s)
+  [r3f1] ep  29 loss 0.9549 AUC_val 0.813 (6s)
+  [r3f1] ep  30 loss 0.9540 AUC_val 0.772 (6s)
+  [r3f1] ep  31 loss 0.9445 AUC_val 0.810 (6s)
+  [r3f1] ep  32 loss 0.8550 AUC_val 0.776 (7s)
+  [r3f1] ep  33 loss 0.9025 AUC_val 0.778 (7s)
+  [r3f1] ep  34 loss 0.8663 AUC_val 0.825 (7s)
+  [r3f1] ep  35 loss 0.8592 AUC_val 0.849 (6s)
+  [r3f1] ep  36 loss 0.8899 AUC_val 0.832 (6s)
+  [r3f1] ep  37 loss 0.8541 AUC_val 0.816 (6s)
+  [r3f1] ep  38 loss 0.8336 AUC_val 0.803 (7s)
+  [r3f1] ep  39 loss 0.8244 AUC_val 0.852 (7s)
+  [r3f1] ep  40 loss 0.8468 AUC_val 0.709 (7s)
+  Metadatos AUC 0.707 Sens 0.956 Esp 0.103 VPN 0.867
+  CNN    AUC 0.699 Sens 0.756 Esp 0.516 VPN 0.855
+  OPERA  AUC 0.596 Sens 0.467 Esp 0.667 VPN 0.778
+  Fusion AUC 0.643 Sens 0.444 Esp 0.714 VPN 0.783
+
+=== Repetición 3 | fold 2 ===
+  [r3f2] ep   1 loss 1.1579 AUC_val 0.446 (6s) *
+  [r3f2] ep   2 loss 1.1339 AUC_val 0.504 (7s) *
+  [r3f2] ep   3 loss 1.1328 AUC_val 0.533 (7s) *
+  [r3f2] ep   4 loss 1.0678 AUC_val 0.527 (6s)
+  [r3f2] ep   5 loss 1.1554 AUC_val 0.553 (6s) *
+  [r3f2] ep   6 loss 1.1008 AUC_val 0.539 (7s)
+  [r3f2] ep   7 loss 1.1196 AUC_val 0.615 (6s) *
+  [r3f2] ep   8 loss 1.0773 AUC_val 0.448 (7s)
+  [r3f2] ep   9 loss 1.0987 AUC_val 0.514 (6s)
+  [r3f2] ep  10 loss 1.1180 AUC_val 0.503 (6s)
+  [r3f2] ep  11 loss 1.0591 AUC_val 0.509 (7s)
+  [r3f2] ep  12 loss 1.0527 AUC_val 0.621 (6s) *
+  [r3f2] ep  13 loss 1.0198 AUC_val 0.430 (6s)
+  [r3f2] ep  14 loss 1.0631 AUC_val 0.456 (6s)
+  [r3f2] ep  15 loss 1.0035 AUC_val 0.423 (6s)
+  [r3f2] ep  16 loss 1.0749 AUC_val 0.321 (6s)
+  [r3f2] ep  17 loss 1.0535 AUC_val 0.562 (7s)
+  [r3f2] ep  18 loss 1.0359 AUC_val 0.507 (13s)
+  [r3f2] ep  19 loss 1.0764 AUC_val 0.682 (20s) *
+  [r3f2] ep  20 loss 1.0007 AUC_val 0.715 (19s) *
+  [r3f2] ep  21 loss 1.0685 AUC_val 0.499 (19s)
+  [r3f2] ep  22 loss 0.9922 AUC_val 0.473 (19s)
+  [r3f2] ep  23 loss 0.9846 AUC_val 0.750 (19s) *
+  [r3f2] ep  24 loss 1.0303 AUC_val 0.685 (19s)
+  [r3f2] ep  25 loss 0.9868 AUC_val 0.756 (19s) *
+  [r3f2] ep  26 loss 1.0098 AUC_val 0.712 (19s)
+  [r3f2] ep  27 loss 0.9828 AUC_val 0.632 (19s)
+  [r3f2] ep  28 loss 1.0911 AUC_val 0.689 (19s)
+  [r3f2] ep  29 loss 0.9530 AUC_val 0.741 (19s)
+  [r3f2] ep  30 loss 0.9522 AUC_val 0.730 (20s)
+  [r3f2] ep  31 loss 0.9591 AUC_val 0.644 (22s)
+  [r3f2] ep  32 loss 0.8767 AUC_val 0.643 (19s)
+  [r3f2] ep  33 loss 0.8933 AUC_val 0.521 (20s)
+  [r3f2] ep  34 loss 0.8742 AUC_val 0.744 (20s)
+  [r3f2] ep  35 loss 0.9324 AUC_val 0.702 (18s)
+  [r3f2] ep  36 loss 0.8997 AUC_val 0.684 (19s)
+  [r3f2] ep  37 loss 0.9278 AUC_val 0.760 (19s) *
+  [r3f2] ep  38 loss 0.8832 AUC_val 0.773 (19s) *
+  [r3f2] ep  39 loss 0.8968 AUC_val 0.741 (19s)
+  [r3f2] ep  40 loss 0.8696 AUC_val 0.702 (20s)
+  [r3f2] ep  41 loss 0.8944 AUC_val 0.738 (20s)
+  [r3f2] ep  42 loss 0.8578 AUC_val 0.756 (20s)
+  [r3f2] ep  43 loss 0.8145 AUC_val 0.789 (20s) *
+  [r3f2] ep  44 loss 0.8229 AUC_val 0.773 (20s)
+  [r3f2] ep  45 loss 0.8035 AUC_val 0.810 (20s) *
+  [r3f2] ep  46 loss 0.8389 AUC_val 0.784 (20s)
+  [r3f2] ep  47 loss 0.8100 AUC_val 0.759 (20s)
+  [r3f2] ep  48 loss 0.7566 AUC_val 0.762 (20s)
+  [r3f2] ep  49 loss 0.7608 AUC_val 0.781 (21s)
+  [r3f2] ep  50 loss 0.8163 AUC_val 0.777 (20s)
+  [r3f2] ep  51 loss 0.8419 AUC_val 0.767 (20s)
+  [r3f2] ep  52 loss 0.7802 AUC_val 0.779 (20s)
+  [r3f2] ep  53 loss 0.7934 AUC_val 0.773 (18s)
+  [r3f2] ep  54 loss 0.7701 AUC_val 0.775 (10s)
+  [r3f2] ep  55 loss 0.7727 AUC_val 0.776 (8s)
+  [r3f2] ep  56 loss 0.7565 AUC_val 0.781 (9s)
+  [r3f2] ep  57 loss 0.7635 AUC_val 0.783 (16s)
+  [r3f2] ep  58 loss 0.7888 AUC_val 0.774 (19s)
+  [r3f2] ep  59 loss 0.7561 AUC_val 0.781 (19s)
+  [r3f2] ep  60 loss 0.8292 AUC_val 0.775 (19s)
+  Metadatos AUC 0.523 Sens 0.500 Esp 0.465 VPN 0.728
+  CNN    AUC 0.794 Sens 0.886 Esp 0.591 VPN 0.938
+  OPERA  AUC 0.801 Sens 0.818 Esp 0.567 VPN 0.900
+  Fusion AUC 0.825 Sens 0.932 Esp 0.543 VPN 0.958
+
+=== Repetición 3 | fold 3 ===
+  [r3f3] ep   1 loss 1.1169 AUC_val 0.573 (19s) *
+  [r3f3] ep   2 loss 1.1642 AUC_val 0.461 (19s)
+  [r3f3] ep   3 loss 1.1145 AUC_val 0.530 (18s)
+  [r3f3] ep   4 loss 1.1189 AUC_val 0.502 (19s)
+  [r3f3] ep   5 loss 1.1231 AUC_val 0.543 (21s)
+  [r3f3] ep   6 loss 1.0961 AUC_val 0.570 (19s)
+  [r3f3] ep   7 loss 1.0810 AUC_val 0.578 (19s) *
+  [r3f3] ep   8 loss 1.0631 AUC_val 0.570 (20s)
+  [r3f3] ep   9 loss 1.0754 AUC_val 0.598 (20s) *
+  [r3f3] ep  10 loss 1.0967 AUC_val 0.626 (20s) *
+  [r3f3] ep  11 loss 1.0849 AUC_val 0.525 (21s)
+  [r3f3] ep  12 loss 1.0384 AUC_val 0.589 (23s)
+  [r3f3] ep  13 loss 1.1092 AUC_val 0.561 (21s)
+  [r3f3] ep  14 loss 1.1138 AUC_val 0.605 (18s)
+  [r3f3] ep  15 loss 1.0953 AUC_val 0.671 (21s) *
+  [r3f3] ep  16 loss 1.0853 AUC_val 0.722 (20s) *
+  [r3f3] ep  17 loss 1.0749 AUC_val 0.665 (21s)
+  [r3f3] ep  18 loss 1.0281 AUC_val 0.621 (25s)
+  [r3f3] ep  19 loss 1.0526 AUC_val 0.720 (20s)
+  [r3f3] ep  20 loss 1.0398 AUC_val 0.648 (20s)
+  [r3f3] ep  21 loss 0.9923 AUC_val 0.725 (21s) *
+  [r3f3] ep  22 loss 1.0255 AUC_val 0.661 (20s)
+  [r3f3] ep  23 loss 1.0087 AUC_val 0.652 (22s)
+  [r3f3] ep  24 loss 0.9878 AUC_val 0.527 (22s)
+  [r3f3] ep  25 loss 0.9643 AUC_val 0.631 (18s)
+  [r3f3] ep  26 loss 1.0065 AUC_val 0.705 (19s)
+  [r3f3] ep  27 loss 0.9981 AUC_val 0.751 (21s) *
+  [r3f3] ep  28 loss 1.0375 AUC_val 0.658 (20s)
+  [r3f3] ep  29 loss 1.0401 AUC_val 0.561 (18s)
+  [r3f3] ep  30 loss 1.0073 AUC_val 0.661 (20s)
+  [r3f3] ep  31 loss 0.9523 AUC_val 0.719 (21s)
+  [r3f3] ep  32 loss 0.9684 AUC_val 0.725 (20s)
+  [r3f3] ep  33 loss 0.9408 AUC_val 0.645 (19s)
+  [r3f3] ep  34 loss 0.9563 AUC_val 0.707 (20s)
+  [r3f3] ep  35 loss 0.9770 AUC_val 0.743 (19s)
+  [r3f3] ep  36 loss 0.9497 AUC_val 0.708 (19s)
+  [r3f3] ep  37 loss 0.9238 AUC_val 0.735 (19s)
+  [r3f3] ep  38 loss 0.9127 AUC_val 0.721 (20s)
+  [r3f3] ep  39 loss 0.9649 AUC_val 0.695 (20s)
+  [r3f3] ep  40 loss 0.9090 AUC_val 0.748 (19s)
+  [r3f3] ep  41 loss 0.9400 AUC_val 0.770 (20s) *
+  [r3f3] ep  42 loss 0.9151 AUC_val 0.786 (21s) *
+  [r3f3] ep  43 loss 0.8826 AUC_val 0.787 (19s) *
+  [r3f3] ep  44 loss 0.9432 AUC_val 0.799 (20s) *
+  [r3f3] ep  45 loss 0.9130 AUC_val 0.797 (21s)
+  [r3f3] ep  46 loss 0.8939 AUC_val 0.796 (19s)
+  [r3f3] ep  47 loss 0.8460 AUC_val 0.802 (18s) *
+  [r3f3] ep  48 loss 0.8695 AUC_val 0.806 (18s) *
+  [r3f3] ep  49 loss 0.9017 AUC_val 0.778 (18s)
+  [r3f3] ep  50 loss 0.8767 AUC_val 0.784 (18s)
+  [r3f3] ep  51 loss 0.8702 AUC_val 0.801 (19s)
+  [r3f3] ep  52 loss 0.8696 AUC_val 0.801 (18s)
+  [r3f3] ep  53 loss 0.8723 AUC_val 0.799 (18s)
+  [r3f3] ep  54 loss 0.8530 AUC_val 0.797 (18s)
+  [r3f3] ep  55 loss 0.8667 AUC_val 0.798 (18s)
+  [r3f3] ep  56 loss 0.8666 AUC_val 0.801 (18s)
+  [r3f3] ep  57 loss 0.8565 AUC_val 0.801 (18s)
+  [r3f3] ep  58 loss 0.8795 AUC_val 0.803 (18s)
+  [r3f3] ep  59 loss 0.8907 AUC_val 0.801 (18s)
+  [r3f3] ep  60 loss 0.8302 AUC_val 0.801 (18s)
+  Metadatos AUC 0.660 Sens 0.727 Esp 0.413 VPN 0.812
+  CNN    AUC 0.800 Sens 0.886 Esp 0.460 VPN 0.921
+  OPERA  AUC 0.776 Sens 0.818 Esp 0.508 VPN 0.889
+  Fusion AUC 0.828 Sens 0.932 Esp 0.516 VPN 0.956
+
+=== Repetición 3 | fold 4 ===
+  [r3f4] ep   1 loss 1.4784 AUC_val 0.437 (19s) *
+  [r3f4] ep   2 loss 1.1171 AUC_val 0.555 (16s) *
+  [r3f4] ep   3 loss 1.1736 AUC_val 0.646 (19s) *
+  [r3f4] ep   4 loss 1.1381 AUC_val 0.682 (19s) *
+  [r3f4] ep   5 loss 1.0940 AUC_val 0.719 (18s) *
+  [r3f4] ep   6 loss 1.0636 AUC_val 0.753 (19s) *
+  [r3f4] ep   7 loss 1.1013 AUC_val 0.739 (19s)
+  [r3f4] ep   8 loss 1.0860 AUC_val 0.655 (19s)
+  [r3f4] ep   9 loss 1.0807 AUC_val 0.646 (19s)
+  [r3f4] ep  10 loss 1.0824 AUC_val 0.688 (18s)
+  [r3f4] ep  11 loss 1.0836 AUC_val 0.664 (19s)
+  [r3f4] ep  12 loss 1.1152 AUC_val 0.689 (19s)
+  [r3f4] ep  13 loss 1.0801 AUC_val 0.765 (18s) *
+  [r3f4] ep  14 loss 1.0406 AUC_val 0.567 (18s)
+  [r3f4] ep  15 loss 1.0404 AUC_val 0.643 (18s)
+  [r3f4] ep  16 loss 1.0369 AUC_val 0.670 (18s)
+  [r3f4] ep  17 loss 1.0867 AUC_val 0.579 (18s)
+  [r3f4] ep  18 loss 1.0700 AUC_val 0.685 (15s)
+  [r3f4] ep  19 loss 1.0218 AUC_val 0.707 (18s)
+  [r3f4] ep  20 loss 1.0204 AUC_val 0.682 (18s)
+  [r3f4] ep  21 loss 1.0458 AUC_val 0.715 (18s)
+  [r3f4] ep  22 loss 1.0741 AUC_val 0.736 (18s)
+  [r3f4] ep  23 loss 1.0446 AUC_val 0.722 (19s)
+  [r3f4] ep  24 loss 1.0115 AUC_val 0.661 (19s)
+  [r3f4] ep  25 loss 1.0421 AUC_val 0.701 (18s)
+  [r3f4] ep  26 loss 1.0459 AUC_val 0.764 (18s)
+  [r3f4] ep  27 loss 0.9582 AUC_val 0.741 (18s)
+  [r3f4] ep  28 loss 0.9959 AUC_val 0.759 (18s)
+  Metadatos AUC 0.543 Sens 0.636 Esp 0.365 VPN 0.742
+  CNN    AUC 0.757 Sens 0.864 Esp 0.476 VPN 0.909
+  OPERA  AUC 0.680 Sens 0.750 Esp 0.468 VPN 0.843
+  Fusion AUC 0.698 Sens 0.750 Esp 0.492 VPN 0.849
+
+=== Repetición 4 | fold 0 ===
+  [r4f0] ep   1 loss 1.0723 AUC_val 0.450 (19s) *
+  [r4f0] ep   2 loss 1.1076 AUC_val 0.483 (19s) *
+  [r4f0] ep   3 loss 1.0811 AUC_val 0.426 (18s)
+  [r4f0] ep   4 loss 1.0826 AUC_val 0.479 (18s)
+  [r4f0] ep   5 loss 1.0860 AUC_val 0.471 (18s)
+  [r4f0] ep   6 loss 1.0972 AUC_val 0.485 (18s) *
+  [r4f0] ep   7 loss 1.0570 AUC_val 0.504 (18s) *
+  [r4f0] ep   8 loss 1.0750 AUC_val 0.534 (18s) *
+  [r4f0] ep   9 loss 1.1097 AUC_val 0.563 (18s) *
+  [r4f0] ep  10 loss 1.0776 AUC_val 0.511 (18s)
+  [r4f0] ep  11 loss 1.0144 AUC_val 0.565 (18s) *
+  [r4f0] ep  12 loss 1.0527 AUC_val 0.565 (18s) *
+  [r4f0] ep  13 loss 1.0568 AUC_val 0.584 (18s) *
+  [r4f0] ep  14 loss 1.0413 AUC_val 0.625 (18s) *
+  [r4f0] ep  15 loss 1.0462 AUC_val 0.618 (18s)
+  [r4f0] ep  16 loss 1.0410 AUC_val 0.596 (18s)
+  [r4f0] ep  17 loss 0.9965 AUC_val 0.504 (18s)
+  [r4f0] ep  18 loss 0.9708 AUC_val 0.549 (18s)
+  [r4f0] ep  19 loss 1.0656 AUC_val 0.545 (18s)
+  [r4f0] ep  20 loss 0.9959 AUC_val 0.562 (18s)
+  [r4f0] ep  21 loss 1.0140 AUC_val 0.609 (18s)
+  [r4f0] ep  22 loss 0.9501 AUC_val 0.602 (18s)
+  [r4f0] ep  23 loss 0.9749 AUC_val 0.637 (18s) *
+  [r4f0] ep  24 loss 0.9905 AUC_val 0.553 (18s)
+  [r4f0] ep  25 loss 0.9884 AUC_val 0.593 (18s)
+  [r4f0] ep  26 loss 0.9366 AUC_val 0.553 (18s)
+  [r4f0] ep  27 loss 0.9231 AUC_val 0.617 (18s)
+  [r4f0] ep  28 loss 0.9223 AUC_val 0.626 (18s)
+  [r4f0] ep  29 loss 0.9098 AUC_val 0.630 (19s)
+  [r4f0] ep  30 loss 0.9317 AUC_val 0.635 (18s)
+  [r4f0] ep  31 loss 0.8808 AUC_val 0.613 (18s)
+  [r4f0] ep  32 loss 0.9480 AUC_val 0.668 (18s) *
+  [r4f0] ep  33 loss 0.8915 AUC_val 0.652 (19s)
+  [r4f0] ep  34 loss 0.9368 AUC_val 0.632 (19s)
+  [r4f0] ep  35 loss 0.9231 AUC_val 0.666 (19s)
+  [r4f0] ep  36 loss 0.9258 AUC_val 0.666 (18s)
+  [r4f0] ep  37 loss 0.8589 AUC_val 0.637 (19s)
+  [r4f0] ep  38 loss 0.8895 AUC_val 0.666 (19s)
+  [r4f0] ep  39 loss 0.8527 AUC_val 0.647 (18s)
+  [r4f0] ep  40 loss 0.8774 AUC_val 0.686 (18s) *
+  [r4f0] ep  41 loss 0.8245 AUC_val 0.695 (18s) *
+  [r4f0] ep  42 loss 0.8578 AUC_val 0.698 (18s) *
+  [r4f0] ep  43 loss 0.8283 AUC_val 0.699 (19s) *
+  [r4f0] ep  44 loss 0.8550 AUC_val 0.696 (18s)
+  [r4f0] ep  45 loss 0.8179 AUC_val 0.730 (18s) *
+  [r4f0] ep  46 loss 0.8150 AUC_val 0.717 (18s)
+  [r4f0] ep  47 loss 0.7764 AUC_val 0.723 (18s)
+  [r4f0] ep  48 loss 0.8259 AUC_val 0.722 (18s)
+  [r4f0] ep  49 loss 0.8015 AUC_val 0.735 (19s) *
+  [r4f0] ep  50 loss 0.7499 AUC_val 0.729 (18s)
+  [r4f0] ep  51 loss 0.7511 AUC_val 0.727 (18s)
+  [r4f0] ep  52 loss 0.7890 AUC_val 0.725 (19s)
+  [r4f0] ep  53 loss 0.7847 AUC_val 0.727 (18s)
+  [r4f0] ep  54 loss 0.7713 AUC_val 0.727 (18s)
+  [r4f0] ep  55 loss 0.7437 AUC_val 0.730 (19s)
+  [r4f0] ep  56 loss 0.7852 AUC_val 0.727 (19s)
+  [r4f0] ep  57 loss 0.7556 AUC_val 0.724 (19s)
+  [r4f0] ep  58 loss 0.7398 AUC_val 0.723 (19s)
+  [r4f0] ep  59 loss 0.7921 AUC_val 0.725 (19s)
+  [r4f0] ep  60 loss 0.7290 AUC_val 0.727 (19s)
+  Metadatos AUC 0.705 Sens 0.778 Esp 0.460 VPN 0.853
+  CNN    AUC 0.713 Sens 0.822 Esp 0.357 VPN 0.849
+  OPERA  AUC 0.791 Sens 0.933 Esp 0.333 VPN 0.933
+  Fusion AUC 0.789 Sens 0.889 Esp 0.405 VPN 0.911
+
+=== Repetición 4 | fold 1 ===
+  [r4f1] ep   1 loss 1.2017 AUC_val 0.505 (19s) *
+  [r4f1] ep   2 loss 1.0756 AUC_val 0.593 (19s) *
+  [r4f1] ep   3 loss 1.0699 AUC_val 0.614 (19s) *
+  [r4f1] ep   4 loss 1.1026 AUC_val 0.610 (18s)
+  [r4f1] ep   5 loss 1.0714 AUC_val 0.618 (19s) *
+  [r4f1] ep   6 loss 1.1149 AUC_val 0.584 (18s)
+  [r4f1] ep   7 loss 1.1664 AUC_val 0.598 (19s)
+  [r4f1] ep   8 loss 1.1074 AUC_val 0.680 (19s) *
+  [r4f1] ep   9 loss 1.0840 AUC_val 0.635 (18s)
+  [r4f1] ep  10 loss 1.0869 AUC_val 0.643 (18s)
+  [r4f1] ep  11 loss 1.0690 AUC_val 0.659 (19s)
+  [r4f1] ep  12 loss 1.0527 AUC_val 0.662 (18s)
+  [r4f1] ep  13 loss 1.0372 AUC_val 0.606 (16s)
+  [r4f1] ep  14 loss 1.1131 AUC_val 0.635 (18s)
+  [r4f1] ep  15 loss 1.1783 AUC_val 0.715 (20s) *
+  [r4f1] ep  16 loss 1.0169 AUC_val 0.673 (22s)
+  [r4f1] ep  17 loss 1.0812 AUC_val 0.716 (22s) *
+  [r4f1] ep  18 loss 1.0610 AUC_val 0.666 (22s)
+  [r4f1] ep  19 loss 1.0720 AUC_val 0.614 (22s)
+  [r4f1] ep  20 loss 1.0474 AUC_val 0.651 (19s)
+  [r4f1] ep  21 loss 1.0156 AUC_val 0.710 (18s)
+  [r4f1] ep  22 loss 1.0618 AUC_val 0.667 (18s)
+  [r4f1] ep  23 loss 0.9969 AUC_val 0.635 (18s)
+  [r4f1] ep  24 loss 0.9931 AUC_val 0.592 (18s)
+  [r4f1] ep  25 loss 1.0022 AUC_val 0.651 (18s)
+  [r4f1] ep  26 loss 0.9898 AUC_val 0.544 (18s)
+  [r4f1] ep  27 loss 0.9770 AUC_val 0.655 (18s)
+  [r4f1] ep  28 loss 1.0492 AUC_val 0.616 (18s)
+  [r4f1] ep  29 loss 1.0056 AUC_val 0.633 (18s)
+  [r4f1] ep  30 loss 1.0315 AUC_val 0.671 (19s)
+  [r4f1] ep  31 loss 0.9969 AUC_val 0.599 (19s)
+  [r4f1] ep  32 loss 0.9710 AUC_val 0.650 (19s)
+  Metadatos AUC 0.694 Sens 0.750 Esp 0.508 VPN 0.853
+  CNN    AUC 0.576 Sens 0.750 Esp 0.365 VPN 0.807
+  OPERA  AUC 0.630 Sens 0.727 Esp 0.516 VPN 0.844
+  Fusion AUC 0.630 Sens 0.682 Esp 0.444 VPN 0.800
+
+=== Repetición 4 | fold 2 ===
+  [r4f2] ep   1 loss 1.1078 AUC_val 0.504 (19s) *
+  [r4f2] ep   2 loss 1.1023 AUC_val 0.566 (18s) *
+  [r4f2] ep   3 loss 1.1262 AUC_val 0.660 (19s) *
+  [r4f2] ep   4 loss 1.1503 AUC_val 0.462 (19s)
+  [r4f2] ep   5 loss 1.0551 AUC_val 0.407 (19s)
+  [r4f2] ep   6 loss 1.1040 AUC_val 0.505 (19s)
+  [r4f2] ep   7 loss 1.1015 AUC_val 0.446 (19s)
+  [r4f2] ep   8 loss 1.0786 AUC_val 0.538 (19s)
+  [r4f2] ep   9 loss 1.0924 AUC_val 0.506 (19s)
+  [r4f2] ep  10 loss 1.1008 AUC_val 0.534 (19s)
+  [r4f2] ep  11 loss 1.0664 AUC_val 0.579 (19s)
+  [r4f2] ep  12 loss 1.0563 AUC_val 0.354 (19s)
+  [r4f2] ep  13 loss 1.0466 AUC_val 0.400 (19s)
+  [r4f2] ep  14 loss 1.0047 AUC_val 0.461 (19s)
+  [r4f2] ep  15 loss 1.0526 AUC_val 0.474 (19s)
+  [r4f2] ep  16 loss 1.0812 AUC_val 0.481 (20s)
+  [r4f2] ep  17 loss 1.0986 AUC_val 0.529 (19s)
+  [r4f2] ep  18 loss 1.0613 AUC_val 0.494 (19s)
+  Metadatos AUC 0.687 Sens 0.841 Esp 0.315 VPN 0.851
+  CNN    AUC 0.618 Sens 0.750 Esp 0.425 VPN 0.831
+  OPERA  AUC 0.761 Sens 0.977 Esp 0.236 VPN 0.968
+  Fusion AUC 0.770 Sens 0.955 Esp 0.276 VPN 0.946
+
+=== Repetición 4 | fold 3 ===
+  [r4f3] ep   1 loss 1.1734 AUC_val 0.458 (19s) *
+  [r4f3] ep   2 loss 1.1190 AUC_val 0.389 (19s)
+  [r4f3] ep   3 loss 1.1273 AUC_val 0.463 (20s) *
+  [r4f3] ep   4 loss 1.0841 AUC_val 0.484 (19s) *
+  [r4f3] ep   5 loss 1.1728 AUC_val 0.489 (19s) *
+  [r4f3] ep   6 loss 1.1430 AUC_val 0.454 (19s)
+  [r4f3] ep   7 loss 1.0695 AUC_val 0.436 (18s)
+  [r4f3] ep   8 loss 1.1107 AUC_val 0.381 (19s)
+  [r4f3] ep   9 loss 1.1129 AUC_val 0.400 (19s)
+  [r4f3] ep  10 loss 1.1348 AUC_val 0.398 (20s)
+  [r4f3] ep  11 loss 1.0714 AUC_val 0.334 (19s)
+  [r4f3] ep  12 loss 1.0195 AUC_val 0.366 (19s)
+  [r4f3] ep  13 loss 1.0580 AUC_val 0.396 (19s)
+  [r4f3] ep  14 loss 1.0375 AUC_val 0.495 (19s) *
+  [r4f3] ep  15 loss 1.0834 AUC_val 0.416 (19s)
+  [r4f3] ep  16 loss 1.0655 AUC_val 0.408 (19s)
+  [r4f3] ep  17 loss 1.0212 AUC_val 0.524 (19s) *
+  [r4f3] ep  18 loss 1.0626 AUC_val 0.510 (19s)
+  [r4f3] ep  19 loss 1.0054 AUC_val 0.509 (19s)
+  [r4f3] ep  20 loss 1.0231 AUC_val 0.524 (19s)
+  [r4f3] ep  21 loss 0.9475 AUC_val 0.539 (19s) *
+  [r4f3] ep  22 loss 0.9832 AUC_val 0.559 (20s) *
+  [r4f3] ep  23 loss 0.9514 AUC_val 0.571 (19s) *
+  [r4f3] ep  24 loss 0.9913 AUC_val 0.597 (26s) *
+  [r4f3] ep  25 loss 0.9598 AUC_val 0.601 (25s) *
+  [r4f3] ep  26 loss 0.9602 AUC_val 0.581 (19s)
+  [r4f3] ep  27 loss 0.9715 AUC_val 0.632 (19s) *
+  [r4f3] ep  28 loss 0.9258 AUC_val 0.586 (19s)
+  [r4f3] ep  29 loss 0.9757 AUC_val 0.640 (19s) *
+  [r4f3] ep  30 loss 0.9470 AUC_val 0.680 (19s) *
+  [r4f3] ep  31 loss 0.9215 AUC_val 0.678 (19s)
+  [r4f3] ep  32 loss 0.9306 AUC_val 0.716 (19s) *
+  [r4f3] ep  33 loss 0.9354 AUC_val 0.675 (25s)
+  [r4f3] ep  34 loss 0.9096 AUC_val 0.630 (25s)
+  [r4f3] ep  35 loss 0.8999 AUC_val 0.610 (19s)
+  [r4f3] ep  36 loss 0.9234 AUC_val 0.696 (19s)
+  [r4f3] ep  37 loss 0.8706 AUC_val 0.711 (19s)
+  [r4f3] ep  38 loss 0.8522 AUC_val 0.715 (19s)
+  [r4f3] ep  39 loss 0.8124 AUC_val 0.712 (19s)
+  [r4f3] ep  40 loss 0.8795 AUC_val 0.706 (20s)
+  [r4f3] ep  41 loss 0.8084 AUC_val 0.698 (19s)
+  [r4f3] ep  42 loss 0.8088 AUC_val 0.698 (19s)
+  [r4f3] ep  43 loss 0.8284 AUC_val 0.753 (19s) *
+  [r4f3] ep  44 loss 0.8232 AUC_val 0.751 (19s)
+  [r4f3] ep  45 loss 0.8420 AUC_val 0.759 (19s) *
+  [r4f3] ep  46 loss 0.8547 AUC_val 0.741 (19s)
+  [r4f3] ep  47 loss 0.8120 AUC_val 0.748 (19s)
+  [r4f3] ep  48 loss 0.7656 AUC_val 0.748 (19s)
+  [r4f3] ep  49 loss 0.8105 AUC_val 0.752 (19s)
+  [r4f3] ep  50 loss 0.7664 AUC_val 0.737 (18s)
+  [r4f3] ep  51 loss 0.7784 AUC_val 0.740 (19s)
+  [r4f3] ep  52 loss 0.8018 AUC_val 0.745 (19s)
+  [r4f3] ep  53 loss 0.7604 AUC_val 0.749 (19s)
+  [r4f3] ep  54 loss 0.7459 AUC_val 0.757 (19s)
+  [r4f3] ep  55 loss 0.7934 AUC_val 0.757 (19s)
+  [r4f3] ep  56 loss 0.7469 AUC_val 0.762 (19s) *
+  [r4f3] ep  57 loss 0.7261 AUC_val 0.760 (19s)
+  [r4f3] ep  58 loss 0.7532 AUC_val 0.762 (18s) *
+  [r4f3] ep  59 loss 0.7438 AUC_val 0.760 (19s)
+  [r4f3] ep  60 loss 0.7384 AUC_val 0.762 (19s)
+  Metadatos AUC 0.553 Sens 0.727 Esp 0.213 VPN 0.692
+  CNN    AUC 0.726 Sens 0.955 Esp 0.213 VPN 0.931
+  OPERA  AUC 0.712 Sens 0.955 Esp 0.307 VPN 0.951
+  Fusion AUC 0.746 Sens 0.818 Esp 0.457 VPN 0.879
+
+=== Repetición 4 | fold 4 ===
+  [r4f4] ep   1 loss 1.1209 AUC_val 0.647 (18s) *
+  [r4f4] ep   2 loss 1.0793 AUC_val 0.613 (19s)
+  [r4f4] ep   3 loss 1.0713 AUC_val 0.553 (19s)
+  [r4f4] ep   4 loss 1.0940 AUC_val 0.504 (19s)
+  [r4f4] ep   5 loss 1.1232 AUC_val 0.503 (19s)
+  [r4f4] ep   6 loss 1.0891 AUC_val 0.452 (19s)
+  [r4f4] ep   7 loss 1.0706 AUC_val 0.419 (19s)
+  [r4f4] ep   8 loss 1.0702 AUC_val 0.454 (18s)
+  [r4f4] ep   9 loss 1.0542 AUC_val 0.378 (19s)
+  [r4f4] ep  10 loss 1.0620 AUC_val 0.389 (19s)
+  [r4f4] ep  11 loss 1.0594 AUC_val 0.338 (19s)
+  [r4f4] ep  12 loss 1.0667 AUC_val 0.323 (19s)
+  [r4f4] ep  13 loss 1.0946 AUC_val 0.337 (19s)
+  [r4f4] ep  14 loss 1.0678 AUC_val 0.607 (19s)
+  [r4f4] ep  15 loss 1.0461 AUC_val 0.510 (18s)
+  [r4f4] ep  16 loss 1.0073 AUC_val 0.553 (19s)
+  Metadatos AUC 0.606 Sens 0.500 Esp 0.587 VPN 0.771
+  CNN    AUC 0.488 Sens 0.773 Esp 0.175 VPN 0.688
+  OPERA  AUC 0.664 Sens 0.545 Esp 0.778 VPN 0.831
+  Fusion AUC 0.665 Sens 0.545 Esp 0.778 VPN 0.831
+
+=== Media ± DE sobre 25 folds ===
+                     auc   sensibilidad  especificidad            vpp            vpn             f1      exactitud        bal_acc
+modelo                                                                                                                           
+Metadatos  0.649 ± 0.083  0.762 ± 0.139   0.336 ± 0.15  0.289 ± 0.035  0.805 ± 0.072  0.416 ± 0.044  0.447 ± 0.087  0.549 ± 0.052
+CNN        0.658 ± 0.109  0.818 ± 0.088  0.369 ± 0.158  0.319 ± 0.048   0.84 ± 0.074  0.456 ± 0.053  0.485 ± 0.109  0.593 ± 0.072
+OPERA      0.717 ± 0.081  0.764 ± 0.206    0.48 ± 0.17   0.343 ± 0.04  0.875 ± 0.067  0.464 ± 0.062  0.553 ± 0.084  0.622 ± 0.052
+Fusion     0.741 ± 0.074  0.766 ± 0.188   0.52 ± 0.152  0.364 ± 0.044   0.88 ± 0.065  0.484 ± 0.057  0.583 ± 0.078  0.643 ± 0.054
+
+=== DeLong (predicciones fuera de fold, por repetición) ===
+ repeticion      comparacion  auc_a  auc_b  p_delong
+          0    Fusion vs CNN 0.7580 0.6840    0.0001
+          0  Fusion vs OPERA 0.7580 0.7237    0.0000
+          0     CNN vs OPERA 0.6840 0.7237    0.1151
+          0 CNN vs Metadatos 0.6840 0.6496    0.2828
+          1    Fusion vs CNN 0.7152 0.6273    0.0004
+          1  Fusion vs OPERA 0.7152 0.6886    0.0000
+          1     CNN vs OPERA 0.6273 0.6886    0.0291
+          1 CNN vs Metadatos 0.6273 0.6646    0.1994
+          2    Fusion vs CNN 0.6790 0.5403    0.0000
+          2  Fusion vs OPERA 0.6790 0.6713    0.3860
+          2     CNN vs OPERA 0.5403 0.6713    0.0001
+          2 CNN vs Metadatos 0.5403 0.6378    0.0014
+          3    Fusion vs CNN 0.7714 0.7274    0.0104
+          3  Fusion vs OPERA 0.7714 0.7412    0.0000
+          3     CNN vs OPERA 0.7274 0.7412    0.5332
+          3 CNN vs Metadatos 0.7274 0.6342    0.0009
+          4    Fusion vs CNN 0.7007 0.6181    0.0000
+          4  Fusion vs OPERA 0.7007 0.6893    0.1239
+          4     CNN vs OPERA 0.6181 0.6893    0.0051
+          4 CNN vs Metadatos 0.6181 0.6469    0.3909
+
+Victorias en AUC por fold: {'Fusion > CNN': 20, 'CNN > Metadatos': 9, 'CNN > OPERA': 8, 'Fusion > OPERA': 20, 'total_folds': 25}

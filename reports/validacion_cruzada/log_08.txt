@@ -1,0 +1,47 @@
+r0 f0  CE 0.770  CNN+CE 0.821
+r0 f1  CE 0.708  CNN+CE 0.790
+r0 f2  CE 0.687  CNN+CE 0.790
+r0 f3  CE 0.749  CNN+CE 0.828
+r0 f4  CE 0.565  CNN+CE 0.648
+r1 f0  CE 0.727  CNN+CE 0.776
+r1 f1  CE 0.791  CNN+CE 0.814
+r1 f2  CE 0.561  CNN+CE 0.652
+r1 f3  CE 0.623  CNN+CE 0.709
+r1 f4  CE 0.575  CNN+CE 0.627
+r2 f0  CE 0.701  CNN+CE 0.755
+r2 f1  CE 0.622  CNN+CE 0.719
+r2 f2  CE 0.694  CNN+CE 0.734
+r2 f3  CE 0.594  CNN+CE 0.653
+r2 f4  CE 0.746  CNN+CE 0.802
+r3 f0  CE 0.806  CNN+CE 0.825
+r3 f1  CE 0.570  CNN+CE 0.667
+r3 f2  CE 0.771  CNN+CE 0.807
+r3 f3  CE 0.745  CNN+CE 0.836
+r3 f4  CE 0.611  CNN+CE 0.671
+r4 f0  CE 0.853  CNN+CE 0.834
+r4 f1  CE 0.676  CNN+CE 0.782
+r4 f2  CE 0.775  CNN+CE 0.812
+r4 f3  CE 0.736  CNN+CE 0.761
+r4 f4  CE 0.556  CNN+CE 0.717
+modelo              Fusion_CNN_CE  OPERA_CE
+auc           mean          0.753     0.688
+              std           0.068     0.088
+sensibilidad  mean          0.773     0.740
+              std           0.172     0.196
+especificidad mean          0.557     0.475
+              std           0.159     0.168
+vpp           mean          0.391     0.334
+              std           0.065     0.047
+vpn           mean          0.888     0.858
+              std           0.060     0.066
+f1            mean          0.508     0.452
+              std           0.063     0.067
+exactitud     mean          0.613     0.544
+              std           0.089     0.089
+bal_acc       mean          0.665     0.607
+              std           0.058     0.058
+                         auc_a  auc_b  sig
+comparacion                               
+Fusion_CNN_CE vs CNN     0.748  0.731    1
+Fusion_CNN_CE vs Fusion  0.748  0.754    1
+OPERA_CE vs CNN          0.684  0.731    3
