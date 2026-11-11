@@ -44,6 +44,25 @@ La versión int8 (13.3 MB) cambia la clasificación en el 3.2 % de los casos y n
 
 La CNN se convirtió a TFLite sin problemas, pero la conversión de OPERA-CE (EfficientNet-B0) con `onnx2tf` falló repetidamente: la herramienta interpreta mal la disposición de los ejes de la red. El aplicativo usa **ONNX Runtime**, que también ejecuta el modelo dentro del teléfono y sin conexión, y tiene paquete para Flutter. Los `.onnx` se usan tal cual, ya verificados contra el modelo original.
 
+## Corrección v1→v2 (early stopping de la CNN)
+
+**Aviso: el resto de cifras de este README (tabla de resultados, modelo final, umbral 0.3405, tamaño y latencia del ONNX) son de v1 y se actualizarán con v2.**
+
+En v1 el early stopping se activaba durante el calentamiento de OneCycleLR (el learning rate sube hasta ~la época 18) y cortaba 18 de 25 particiones antes de tiempo. En v2 no se guarda checkpoint ni cuenta la paciencia antes de la época 30. Solo cambian los modelos que usan la CNN; OPERA y metadatos no dependen del early stopping. Resultados v1 conservados en `reports/validacion_cruzada_v1_parada_temprana/` y `models/cv_v1_parada_temprana/`.
+
+| Modelo | AUC v1 (parada temprana) | AUC v2 (corregido) |
+|---|---|---|
+| CNN ligera | 0.658 ± 0.109 | **0.747 ± 0.050** |
+| OPERA (CT + CE) | 0.717 ± 0.081 | 0.717 ± 0.081 |
+| Fusión CNN + OPERA (CT + CE) | 0.741 ± 0.074 | **0.766 ± 0.062** |
+| OPERA-CE | 0.688 ± 0.088 | 0.688 ± 0.088 |
+| Fusión CNN + OPERA-CE | 0.721 ± 0.083 | **0.753 ± 0.068** |
+| Solo metadatos | 0.649 ± 0.083 | 0.649 ± 0.083 |
+
+**Regla de selección del modelo:** se elige el modelo más pequeño que cumpla H1, salvo que otro sea significativamente mejor (IC95 de la diferencia pareada excluye 0).
+
+Intento de control con tramos de fondo: solo 48 de 853 grabaciones tienen ≥1 s de fondo por la forma en que está recortado el dataset; descartado.
+
 ## Estructura y orden de ejecución
 
 ```
@@ -97,4 +116,4 @@ Los pesos de OPERA (`encoder-operaCT.ckpt`, `encoder-operaCE.ckpt`) **no se incl
 
 - Aplicativo en Flutter (ONNX Runtime) según `models/final/export/especificacion_app.json`.
 - Medición en el teléfono HONOR: latencia, tamaño instalado y consistencia con la PC.
-- Corrección del early stopping.
+- Regenerar con v2: modelo final, umbral, exportación ONNX y cifras de este README.

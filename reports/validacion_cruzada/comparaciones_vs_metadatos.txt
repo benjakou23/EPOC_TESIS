@@ -1,0 +1,35 @@
+Predicciones: C:\Users\benja\tesis_epo\reports\validacion_cruzada\predicciones_oof_unido.csv
+289 grupos (carpetas participante/sesión), 5 repeticiones, B=1000
+
+== 1. AUC fuera de partición (media de repeticiones), IC95 bootstrap por participante ==
+  p_Metadatos        0.647  [0.575; 0.711]
+  p_CNN              0.731  [0.685; 0.776]
+  p_Fusion_CNN_CE    0.748  [0.696; 0.794]
+  p_OPERA_CE         0.684  [0.628; 0.736]
+  p_Fusion           0.754  [0.703; 0.799]
+
+== 2. Diferencia de AUC vs p_Metadatos (pareada, bootstrap por participante) ==
+  p_CNN              +0.084  [+0.010; +0.170]  IC EXCLUYE 0 | DeLong p<0.05 en 3/5 rep.
+  p_Fusion_CNN_CE    +0.101  [+0.029; +0.183]  IC EXCLUYE 0 | DeLong p<0.05 en 4/5 rep.
+  p_OPERA_CE         +0.037  [-0.036; +0.121]  IC incluye 0 | DeLong p<0.05 en 2/5 rep.
+  p_Fusion           +0.107  [+0.036; +0.192]  IC EXCLUYE 0 | DeLong p<0.05 en 5/5 rep.
+  (DeLong asume casos independientes; hay varias grabaciones por participante: el IC por
+   participante es la medida principal, DeLong es complementaria.)
+
+== 3. Umbral de tamizaje (sensibilidad objetivo 85%) ==
+  honesto = umbral fijado con las OOF de los otros folds de la misma repetición
+  resust. = umbral único fijado con TODAS las OOF (sens. optimista por construcción)
+  p_CNN              honesto: sens 0.837 esp 0.426 | resust. (umbral 0.2931): sens 0.851 esp 0.407
+  p_Fusion_CNN_CE    honesto: sens 0.843 esp 0.455 | resust. (umbral 0.3132): sens 0.851 esp 0.462
+  p_OPERA_CE         honesto: sens 0.849 esp 0.337 | resust. (umbral 0.1983): sens 0.851 esp 0.325
+  p_Fusion           honesto: sens 0.841 esp 0.457 | resust. (umbral 0.2852): sens 0.851 esp 0.446
+
+== 4. Valores predictivos según prevalencia (VPP / VPN / % derivados a espirometría) ==
+  p_CNN              honesto: 6%: VPP 8.5% VPN 97.6% deriva 59% | 12%: VPP 16.6% VPN 95.0% deriva 61% | 26%: VPP 33.9% VPN 88.2% deriva 64%
+  p_CNN              resust.: 6%: VPP 8.4% VPN 97.7% deriva 61% | 12%: VPP 16.4% VPN 95.2% deriva 62% | 26%: VPP 33.5% VPN 88.6% deriva 66%
+  p_Fusion_CNN_CE    honesto: 6%: VPP 9.0% VPN 97.8% deriva 56% | 12%: VPP 17.4% VPN 95.5% deriva 58% | 26%: VPP 35.2% VPN 89.2% deriva 62%
+  p_Fusion_CNN_CE    resust.: 6%: VPP 9.2% VPN 98.0% deriva 56% | 12%: VPP 17.7% VPN 95.8% deriva 58% | 26%: VPP 35.7% VPN 89.8% deriva 62%
+  p_OPERA_CE         honesto: 6%: VPP 7.6% VPN 97.2% deriva 67% | 12%: VPP 14.9% VPN 94.2% deriva 69% | 26%: VPP 31.0% VPN 86.4% deriva 71%
+  p_OPERA_CE         resust.: 6%: VPP 7.4% VPN 97.2% deriva 69% | 12%: VPP 14.7% VPN 94.1% deriva 70% | 26%: VPP 30.7% VPN 86.1% deriva 72%
+  p_Fusion           honesto: 6%: VPP 9.0% VPN 97.8% deriva 56% | 12%: VPP 17.4% VPN 95.5% deriva 58% | 26%: VPP 35.2% VPN 89.1% deriva 62%
+  p_Fusion           resust.: 6%: VPP 8.9% VPN 97.9% deriva 57% | 12%: VPP 17.3% VPN 95.6% deriva 59% | 26%: VPP 35.0% VPN 89.5% deriva 63%

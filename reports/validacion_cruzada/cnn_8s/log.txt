@@ -1,0 +1,51 @@
+r0 f0 ok
+r0 f1 ok
+r0 f2 ok
+r0 f3 ok
+r0 f4 ok
+r1 f0 ok
+r1 f1 ok
+r1 f2 ok
+r1 f3 ok
+r1 f4 ok
+r2 f0 ok
+r2 f1 ok
+r2 f2 ok
+r2 f3 ok
+r2 f4 ok
+r3 f0 ok
+r3 f1 ok
+r3 f2 ok
+r3 f3 ok
+r3 f4 ok
+r4 f0 ok
+r4 f1 ok
+r4 f2 ok
+r4 f3 ok
+r4 f4 ok
+Predicciones: C:\Users\benja\tesis_epo\reports\validacion_cruzada\cnn_8s\predicciones_oof.csv
+289 grupos (carpetas participante/sesión), 5 repeticiones, B=1000
+
+== 1. AUC fuera de partición (media de repeticiones), IC95 bootstrap por participante ==
+  p_Metadatos        0.647  [0.575; 0.711]
+  p_CNN              0.731  [0.685; 0.776]
+  p_CNN_8s           0.728  [0.679; 0.776]
+
+== 2. Diferencia de AUC vs p_Metadatos (pareada, bootstrap por participante) ==
+  p_CNN              +0.084  [+0.010; +0.170]  IC EXCLUYE 0 | DeLong p<0.05 en 3/5 rep.
+  p_CNN_8s           +0.081  [+0.005; +0.171]  IC EXCLUYE 0 | DeLong p<0.05 en 3/5 rep.
+  (DeLong asume casos independientes; hay varias grabaciones por participante: el IC por
+   participante es la medida principal, DeLong es complementaria.)
+
+== 3. Umbral de tamizaje (sensibilidad objetivo 85%) ==
+  honesto = umbral fijado con las OOF de los otros folds de la misma repetición
+  resust. = umbral único fijado con TODAS las OOF (sens. optimista por construcción)
+  p_CNN              honesto: sens 0.837 esp 0.426 | resust. (umbral 0.2931): sens 0.851 esp 0.407
+  p_CNN_8s           honesto: sens 0.832 esp 0.417 | resust. (umbral 0.2855): sens 0.851 esp 0.396
+
+== 4. Valores predictivos según prevalencia (VPP / VPN / % derivados a espirometría) ==
+  p_CNN              honesto: 6%: VPP 8.5% VPN 97.6% deriva 59% | 12%: VPP 16.6% VPN 95.0% deriva 61% | 26%: VPP 33.9% VPN 88.2% deriva 64%
+  p_CNN              resust.: 6%: VPP 8.4% VPN 97.7% deriva 61% | 12%: VPP 16.4% VPN 95.2% deriva 62% | 26%: VPP 33.5% VPN 88.6% deriva 66%
+  p_CNN_8s           honesto: 6%: VPP 8.3% VPN 97.5% deriva 60% | 12%: VPP 16.3% VPN 94.8% deriva 61% | 26%: VPP 33.4% VPN 87.6% deriva 65%
+  p_CNN_8s           resust.: 6%: VPP 8.2% VPN 97.6% deriva 62% | 12%: VPP 16.1% VPN 95.1% deriva 63% | 26%: VPP 33.1% VPN 88.3% deriva 67%
+
