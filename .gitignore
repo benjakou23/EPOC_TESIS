@@ -15,3 +15,7 @@ third_party/
 .DS_Store
 Thumbs.db
 desktop.ini
+.venv-tflite/
+
+# Contienen pesos de OPERA-CE (se regeneran con scripts/10 y 11; revisar licencia antes de redistribuir)
+models/final/export/opera_ce_tos*.onnx

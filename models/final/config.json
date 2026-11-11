@@ -1,0 +1,40 @@
+{
+  "modelo": "Fusión CNN ligera + OPERA-CE (regresión logística), promedio de probabilidades",
+  "fecha": "2026-11-11",
+  "audio": {
+    "frecuencia_hz": 16000,
+    "canales": 1,
+    "formato": "float32 en [-1, 1]"
+  },
+  "cnn": {
+    "ventana_s": 3.0,
+    "salto_s": 1.5,
+    "n_mels": 64,
+    "n_fft": 512,
+    "win_length": 400,
+    "hop_length": 160,
+    "f_min": 50,
+    "f_max": 8000,
+    "agregacion": "media de probabilidades por ventana",
+    "mejor_epoca": 50,
+    "auc_parada_temprana": 0.834
+  },
+  "opera_ce": {
+    "duracion_minima_s": 8,
+    "relleno": "repetición del audio hasta 8 s",
+    "n_mels": 64,
+    "f_max": 8000,
+    "dim_embedding": 1280
+  },
+  "umbral_tamizaje": 0.340541458921507,
+  "sensibilidad_objetivo": 0.85,
+  "desempeno_cv_5x5_agrupada": {
+    "auc": "0.721 ± 0.083",
+    "sensibilidad": "0.746 ± 0.192",
+    "especificidad": "0.529 ± 0.167",
+    "vpp": "0.363 ± 0.055",
+    "vpn": "0.871 ± 0.064",
+    "f1": "0.479 ± 0.073",
+    "exactitud": "0.585 ± 0.093"
+  }
+}

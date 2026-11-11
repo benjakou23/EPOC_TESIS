@@ -1,0 +1,34 @@
+{
+  "float32": {
+    "tamano_mb": {
+      "cnn_tos": 2.77,
+      "opera_ce_tos": 22.55
+    },
+    "tamano_total_mb": 25.32,
+    "dif_abs_media": 0.0,
+    "dif_abs_max": 3e-06,
+    "misma_clasificacion": 1.0,
+    "latencia_pc_ms": {
+      "cnn_por_grabacion": 7.6,
+      "opera_ce": 6.3,
+      "total_media": 13.9,
+      "total_max": 73.0
+    }
+  },
+  "int8": {
+    "tamano_mb": {
+      "cnn_tos": 2.49,
+      "opera_ce_tos": 10.83
+    },
+    "tamano_total_mb": 13.32,
+    "dif_abs_media": 0.012282,
+    "dif_abs_max": 0.130909,
+    "misma_clasificacion": 0.9683,
+    "latencia_pc_ms": {
+      "cnn_por_grabacion": 100.5,
+      "opera_ce": 102.2,
+      "total_media": 202.7,
+      "total_max": 1116.1
+    }
+  }
+}

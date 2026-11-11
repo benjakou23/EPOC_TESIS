@@ -1,0 +1,85 @@
+{
+  "entrada": {
+    "frecuencia_hz": 16000,
+    "canales": 1,
+    "duracion_max_s": 8,
+    "formato": "float32 en [-1, 1] (PCM16 / 32768)"
+  },
+  "preprocesamiento": [
+    "Convertir a mono y 16 kHz.",
+    "Recortar silencio inicial y final: cuadros de 2048 muestras con salto 512; conservar desde el primer hasta el último cuadro con RMS a menos de 40 dB del RMS máximo (librosa.effects.trim, top_db=40). Si quedan menos de 0.5 s, no recortar.",
+    "Normalizar el pico: y = 0.95 * y / max(|y|).",
+    "Si dura más de 8 s, usar los primeros 8 s."
+  ],
+  "cnn_tos": {
+    "archivo": "cnn_tos.onnx",
+    "entrada": [
+      1,
+      48000
+    ],
+    "ventana": 48000,
+    "salto": 24000,
+    "ventanas": "si el audio es <= 3 s: rellenar con ceros centrado hasta 48000; si no, ventanas desde 0 con salto 24000 y una última que termine en el final del audio",
+    "agregacion": "promedio de la probabilidad de todas las ventanas"
+  },
+  "opera_ce_tos": {
+    "archivo": "opera_ce_tos.onnx",
+    "entrada": [
+      1,
+      128000
+    ],
+    "relleno": "repetir el audio y anteponer los últimos (128000 - n) valores de la repetición"
+  },
+  "fusion": "p = (p_cnn + p_opera_ce) / 2",
+  "umbral_tamizaje": 0.340541458921507,
+  "resultado": "riesgo alto (derivar a espirometría) si p >= umbral; si no, riesgo bajo",
+  "verificacion_pytorch": {
+    "cnn_dif_max_prob": 6.556510925292969e-07,
+    "opera_mel_dif_max": 1.1014926712960005e-05,
+    "opera_emb_dif_rel_max": 8.881309554453765e-07,
+    "opera_dif_max_prob": 3.7978439326735725e-07
+  },
+  "diferencia_onnx_pytorch": {
+    "cnn_tos": 5.960464477539063e-08,
+    "opera_ce_tos": 0.0
+  },
+  "motor_inferencia": "ONNX Runtime (float32); en Flutter, paquete onnxruntime",
+  "nombres_tensores": {
+    "entrada": "audio",
+    "salida": "prob"
+  },
+  "consistencia_onnx": {
+    "float32": {
+      "tamano_mb": {
+        "cnn_tos": 2.77,
+        "opera_ce_tos": 22.55
+      },
+      "tamano_total_mb": 25.32,
+      "dif_abs_media": 0.0,
+      "dif_abs_max": 3e-06,
+      "misma_clasificacion": 1.0,
+      "latencia_pc_ms": {
+        "cnn_por_grabacion": 7.6,
+        "opera_ce": 6.3,
+        "total_media": 13.9,
+        "total_max": 73.0
+      }
+    },
+    "int8": {
+      "tamano_mb": {
+        "cnn_tos": 2.49,
+        "opera_ce_tos": 10.83
+      },
+      "tamano_total_mb": 13.32,
+      "dif_abs_media": 0.012282,
+      "dif_abs_max": 0.130909,
+      "misma_clasificacion": 0.9683,
+      "latencia_pc_ms": {
+        "cnn_por_grabacion": 100.5,
+        "opera_ce": 102.2,
+        "total_media": 202.7,
+        "total_max": 1116.1
+      }
+    }
+  }
+}

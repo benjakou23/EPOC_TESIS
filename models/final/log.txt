@@ -1,0 +1,105 @@
+CNN: entrenamiento 731 grabaciones / 249 participantes; parada temprana 122 / 40
+  [final] ep   1 loss 1.4122 AUC_val 0.435 (9s) *
+  [final] ep   2 loss 1.0996 AUC_val 0.602 (8s) *
+  [final] ep   3 loss 1.1164 AUC_val 0.587 (9s)
+  [final] ep   4 loss 1.0564 AUC_val 0.561 (8s)
+  [final] ep   5 loss 1.0841 AUC_val 0.580 (8s)
+  [final] ep   6 loss 1.0754 AUC_val 0.560 (9s)
+  [final] ep   7 loss 1.0672 AUC_val 0.558 (13s)
+  [final] ep   8 loss 1.0701 AUC_val 0.528 (19s)
+  [final] ep   9 loss 1.0358 AUC_val 0.518 (8s)
+  [final] ep  10 loss 1.0853 AUC_val 0.501 (7s)
+  [final] ep  11 loss 1.0277 AUC_val 0.512 (8s)
+  [final] ep  12 loss 1.0917 AUC_val 0.532 (8s)
+  [final] ep  13 loss 1.0433 AUC_val 0.546 (8s)
+  [final] ep  14 loss 1.0485 AUC_val 0.586 (8s)
+  [final] ep  15 loss 1.0372 AUC_val 0.709 (8s) *
+  [final] ep  16 loss 1.0535 AUC_val 0.610 (9s)
+  [final] ep  17 loss 1.0207 AUC_val 0.630 (9s)
+  [final] ep  18 loss 0.9975 AUC_val 0.648 (8s)
+  [final] ep  19 loss 1.0475 AUC_val 0.610 (8s)
+  [final] ep  20 loss 1.0205 AUC_val 0.606 (8s)
+  [final] ep  21 loss 1.0183 AUC_val 0.610 (8s)
+  [final] ep  22 loss 0.9916 AUC_val 0.635 (8s)
+  [final] ep  23 loss 0.9769 AUC_val 0.694 (8s)
+  [final] ep  24 loss 0.9440 AUC_val 0.660 (8s)
+  [final] ep  25 loss 0.9702 AUC_val 0.694 (8s)
+  [final] ep  26 loss 0.9594 AUC_val 0.724 (8s) *
+  [final] ep  27 loss 0.9906 AUC_val 0.715 (10s)
+  [final] ep  28 loss 1.0349 AUC_val 0.743 (9s) *
+  [final] ep  29 loss 0.9930 AUC_val 0.757 (9s) *
+  [final] ep  30 loss 0.9614 AUC_val 0.744 (9s)
+  [final] ep  31 loss 0.9836 AUC_val 0.745 (10s)
+  [final] ep  32 loss 0.9401 AUC_val 0.787 (11s) *
+  [final] ep  33 loss 0.9397 AUC_val 0.790 (9s) *
+  [final] ep  34 loss 0.9537 AUC_val 0.791 (8s) *
+  [final] ep  35 loss 0.9176 AUC_val 0.787 (8s)
+  [final] ep  36 loss 0.9161 AUC_val 0.777 (8s)
+  [final] ep  37 loss 0.9190 AUC_val 0.767 (9s)
+  [final] ep  38 loss 0.9421 AUC_val 0.822 (8s) *
+  [final] ep  39 loss 0.9164 AUC_val 0.810 (10s)
+  [final] ep  40 loss 0.8852 AUC_val 0.804 (10s)
+  [final] ep  41 loss 0.9203 AUC_val 0.823 (10s) *
+  [final] ep  42 loss 0.8711 AUC_val 0.808 (14s)
+  [final] ep  43 loss 0.8746 AUC_val 0.802 (10s)
+  [final] ep  44 loss 0.8857 AUC_val 0.804 (13s)
+  [final] ep  45 loss 0.8626 AUC_val 0.800 (11s)
+  [final] ep  46 loss 0.8892 AUC_val 0.824 (24s) *
+  [final] ep  47 loss 0.8466 AUC_val 0.800 (24s)
+  [final] ep  48 loss 0.8441 AUC_val 0.808 (14s)
+  [final] ep  49 loss 0.8445 AUC_val 0.829 (24s) *
+  [final] ep  50 loss 0.8429 AUC_val 0.834 (33s) *
+  [final] ep  51 loss 0.8462 AUC_val 0.826 (23s)
+  [final] ep  52 loss 0.8393 AUC_val 0.809 (26s)
+  [final] ep  53 loss 0.8420 AUC_val 0.811 (30s)
+  [final] ep  54 loss 0.8268 AUC_val 0.817 (18s)
+  [final] ep  55 loss 0.7983 AUC_val 0.814 (36s)
+  [final] ep  56 loss 0.8361 AUC_val 0.817 (29s)
+  [final] ep  57 loss 0.8396 AUC_val 0.822 (10s)
+  [final] ep  58 loss 0.8428 AUC_val 0.821 (11s)
+  [final] ep  59 loss 0.8438 AUC_val 0.822 (11s)
+  [final] ep  60 loss 0.8544 AUC_val 0.821 (9s)
+OPERA-CE LogReg: C = 0.03162, AUC CV interna agrupada = 0.736
+Umbral de tamizaje = 0.3405 -> en CV: sens 0.851, esp 0.394, VPN 0.883
+{
+  "modelo": "Fusión CNN ligera + OPERA-CE (regresión logística), promedio de probabilidades",
+  "fecha": "2026-11-11",
+  "audio": {
+    "frecuencia_hz": 16000,
+    "canales": 1,
+    "formato": "float32 en [-1, 1]"
+  },
+  "cnn": {
+    "ventana_s": 3.0,
+    "salto_s": 1.5,
+    "n_mels": 64,
+    "n_fft": 512,
+    "win_length": 400,
+    "hop_length": 160,
+    "f_min": 50,
+    "f_max": 8000,
+    "agregacion": "media de probabilidades por ventana",
+    "mejor_epoca": 50,
+    "auc_parada_temprana": 0.834
+  },
+  "opera_ce": {
+    "duracion_minima_s": 8,
+    "relleno": "repetición del audio hasta 8 s",
+    "n_mels": 64,
+    "f_max": 8000,
+    "dim_embedding": 1280
+  },
+  "umbral_tamizaje": 0.340541458921507,
+  "sensibilidad_objetivo": 0.85,
+  "desempeno_cv_5x5_agrupada": {
+    "auc": "0.721 ± 0.083",
+    "sensibilidad": "0.746 ± 0.192",
+    "especificidad": "0.529 ± 0.167",
+    "vpp": "0.363 ± 0.055",
+    "vpn": "0.871 ± 0.064",
+    "f1": "0.479 ± 0.073",
+    "exactitud": "0.585 ± 0.093"
+  }
+}
+
+Riesgo alto en las 853 grabaciones con el modelo final: 51.1% (optimista: el modelo vio casi todos estos audios)
