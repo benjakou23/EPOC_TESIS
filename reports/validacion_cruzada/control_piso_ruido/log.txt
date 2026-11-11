@@ -1,0 +1,79 @@
+rasgos: (853, 129), (853, 129)
+r0 f0 ok
+r0 f1 ok
+r0 f2 ok
+r0 f3 ok
+r0 f4 ok
+r1 f0 ok
+r1 f1 ok
+r1 f2 ok
+r1 f3 ok
+r1 f4 ok
+r2 f0 ok
+r2 f1 ok
+r2 f2 ok
+r2 f3 ok
+r2 f4 ok
+r3 f0 ok
+r3 f1 ok
+r3 f2 ok
+r3 f3 ok
+r3 f4 ok
+r4 f0 ok
+r4 f1 ok
+r4 f2 ok
+r4 f3 ok
+r4 f4 ok
+Predicciones: C:\Users\benja\tesis_epo\reports\validacion_cruzada\control_piso_ruido\predicciones_oof.csv
+289 grupos (carpetas participante/sesión), 5 repeticiones, B=1000
+
+== 1. AUC fuera de partición (media de repeticiones), IC95 bootstrap por participante ==
+  p_Metadatos        0.647  [0.575; 0.711]
+  p_CNN              0.731  [0.685; 0.776]
+  p_PisoRuido_RF     0.682  [0.628; 0.732]
+  p_PisoRuido_LR     0.555  [0.508; 0.599]
+  p_PisoRuido10_RF   0.638  [0.580; 0.697]
+  p_PisoRuido10_LR   0.557  [0.512; 0.601]
+
+== 2. Diferencia de AUC vs p_Metadatos (pareada, bootstrap por participante) ==
+  p_CNN              +0.084  [+0.010; +0.170]  IC EXCLUYE 0 | DeLong p<0.05 en 3/5 rep.
+  p_PisoRuido_RF     +0.036  [-0.042; +0.120]  IC incluye 0 | DeLong p<0.05 en 1/5 rep.
+  p_PisoRuido_LR     -0.092  [-0.155; -0.021]  IC EXCLUYE 0 | DeLong p<0.05 en 5/5 rep.
+  p_PisoRuido10_RF   -0.009  [-0.090; +0.075]  IC incluye 0 | DeLong p<0.05 en 0/5 rep.
+  p_PisoRuido10_LR   -0.089  [-0.153; -0.014]  IC EXCLUYE 0 | DeLong p<0.05 en 5/5 rep.
+  (DeLong asume casos independientes; hay varias grabaciones por participante: el IC por
+   participante es la medida principal, DeLong es complementaria.)
+
+== 3. Umbral de tamizaje (sensibilidad objetivo 85%) ==
+  honesto = umbral fijado con las OOF de los otros folds de la misma repetición
+  resust. = umbral único fijado con TODAS las OOF (sens. optimista por construcción)
+  p_CNN              honesto: sens 0.837 esp 0.426 | resust. (umbral 0.2931): sens 0.851 esp 0.407
+  p_PisoRuido_RF     honesto: sens 0.849 esp 0.344 | resust. (umbral 0.2443): sens 0.852 esp 0.338
+  p_PisoRuido_LR     honesto: sens 0.825 esp 0.205 | resust. (umbral 0.2744): sens 0.851 esp 0.184
+  p_PisoRuido10_RF   honesto: sens 0.840 esp 0.301 | resust. (umbral 0.2382): sens 0.852 esp 0.293
+  p_PisoRuido10_LR   honesto: sens 0.830 esp 0.241 | resust. (umbral 0.2547): sens 0.852 esp 0.214
+
+== 4. Valores predictivos según prevalencia (VPP / VPN / % derivados a espirometría) ==
+  p_CNN              honesto: 6%: VPP 8.5% VPN 97.6% deriva 59% | 12%: VPP 16.6% VPN 95.0% deriva 61% | 26%: VPP 33.9% VPN 88.2% deriva 64%
+  p_CNN              resust.: 6%: VPP 8.4% VPN 97.7% deriva 61% | 12%: VPP 16.4% VPN 95.2% deriva 62% | 26%: VPP 33.5% VPN 88.6% deriva 66%
+  p_PisoRuido_RF     honesto: 6%: VPP 7.6% VPN 97.3% deriva 67% | 12%: VPP 15.0% VPN 94.3% deriva 68% | 26%: VPP 31.2% VPN 86.6% deriva 71%
+  p_PisoRuido_RF     resust.: 6%: VPP 7.6% VPN 97.3% deriva 67% | 12%: VPP 14.9% VPN 94.4% deriva 68% | 26%: VPP 31.1% VPN 86.6% deriva 71%
+  p_PisoRuido_LR     honesto: 6%: VPP 6.2% VPN 94.9% deriva 80% | 12%: VPP 12.4% VPN 89.6% deriva 80% | 26%: VPP 26.7% VPN 77.0% deriva 80%
+  p_PisoRuido_LR     resust.: 6%: VPP 6.2% VPN 95.1% deriva 82% | 12%: VPP 12.4% VPN 90.0% deriva 82% | 26%: VPP 26.8% VPN 77.8% deriva 83%
+  p_PisoRuido10_RF   honesto: 6%: VPP 7.1% VPN 96.7% deriva 71% | 12%: VPP 14.1% VPN 93.2% deriva 72% | 26%: VPP 29.7% VPN 84.2% deriva 74%
+  p_PisoRuido10_RF   resust.: 6%: VPP 7.1% VPN 96.9% deriva 72% | 12%: VPP 14.1% VPN 93.5% deriva 72% | 26%: VPP 29.7% VPN 84.9% deriva 74%
+  p_PisoRuido10_LR   honesto: 6%: VPP 6.5% VPN 95.7% deriva 76% | 12%: VPP 13.0% VPN 91.2% deriva 77% | 26%: VPP 27.8% VPN 80.1% deriva 78%
+  p_PisoRuido10_LR   resust.: 6%: VPP 6.5% VPN 95.8% deriva 79% | 12%: VPP 12.9% VPN 91.4% deriva 79% | 26%: VPP 27.6% VPN 80.4% deriva 80%
+
+Guardado en C:\Users\benja\tesis_epo\reports\validacion_cruzada\control_piso_ruido\comparaciones_vs_metadatos.txt
+
+
+== 5. Diferencia pareada de AUC, CNN - piso de ruido (IC95 por participante) ==
+  CNN - PisoRuido_RF: +0.049  [-0.005; +0.106]  incluye 0
+  CNN - PisoRuido_LR: +0.176  [+0.114; +0.239]  EXCLUYE 0
+  CNN - PisoRuido10_RF: +0.093  [+0.032; +0.154]  EXCLUYE 0
+  CNN - PisoRuido10_LR: +0.173  [+0.119; +0.232]  EXCLUYE 0
+
+== 6. Ablación: sin el número de cuadros (proporcional a la duración) ==
+  PisoRuido_sinN_RF: AUC 0.655
+  PisoRuido_sinN_LR: AUC 0.552
