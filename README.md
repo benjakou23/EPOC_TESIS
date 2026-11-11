@@ -63,6 +63,41 @@ En v1 el early stopping se activaba durante el calentamiento de OneCycleLR (el l
 
 Intento de control con tramos de fondo: solo 48 de 853 grabaciones tienen ≥1 s de fondo por la forma en que está recortado el dataset; descartado.
 
+## Controles de atajos
+
+AUC fuera de partición (media de 5 repeticiones), IC95 por bootstrap de participantes (`reports/validacion_cruzada/control_duracion/` y `control_piso_ruido/`).
+
+**Metadatos (duración, RMS y pico) y CNN**
+
+| Modelo | AUC | IC95 | Diferencia vs metadatos (IC95) |
+|---|---|---|---|
+| Solo metadatos | 0.647 | 0.575–0.711 | — |
+| CNN (audio completo) | 0.731 | 0.685–0.776 | +0.084 (+0.010 a +0.170) |
+| CNN (primeros 8 s) | 0.728 | 0.679–0.776 | +0.081 (+0.005 a +0.171) |
+| Fusión CNN + OPERA-CE | 0.748 | 0.696–0.794 | +0.101 (+0.029 a +0.183) |
+
+**Piso de ruido con 100 cuadros fijos** (los 100 cuadros de menor energía de la grabación original; 128 rasgos, sin duración; 1 de 853 grabaciones excluida por tener menos de 100 cuadros)
+
+| Modelo | AUC | IC95 | CNN − modelo (IC95) |
+|---|---|---|---|
+| Piso de ruido fijo, RF | 0.653 | 0.593–0.715 | +0.076 (+0.012 a +0.140) |
+| Piso de ruido fijo, regresión logística | 0.547 | 0.499–0.594 | +0.183 (+0.121 a +0.242) |
+
+Con el 20 % de cuadros (número variable, proporcional a la duración) el RF llegaba a 0.682 y su diferencia con la CNN incluía 0; al fijar el número de cuadros baja a 0.653.
+
+**AUC por estratos de duración** (sin reentrenar)
+
+| Estrato | EPOC / sanos | CNN | Fusión CNN + OPERA-CE | OPERA-CE | Metadatos |
+|---|---|---|---|---|---|
+| Todas | 221 / 632 | 0.731 [0.685–0.776] | 0.748 [0.696–0.794] | 0.684 [0.628–0.736] | 0.647 [0.575–0.711] |
+| 5–10 s | 148 / 576 | 0.703 [0.650–0.756] | 0.725 [0.657–0.779] | 0.674 [0.601–0.735] | 0.538 [0.468–0.607] |
+| < 5 s | 39 / 26 | 0.822 [0.684–0.928] | 0.795 [0.675–0.892] | 0.659 [0.511–0.795] | 0.886 [0.767–0.962] |
+| > 10 s | 34 / 30 | 0.711 [0.609–0.795] | 0.682 [0.570–0.782] | 0.632 [0.506–0.759] | 0.749 [0.579–0.877] |
+
+**Relleno con ceros.** Las 23 grabaciones EPOC de menos de 3 s (ninguna sana) se rellenan con ceros en la CNN. Sin ellas el AUC de la CNN baja de 0.731 a **0.701** [0.650–0.745]. La CNN les asigna probabilidad media 0.892 y el 100 % supera el umbral, frente a 0.465 y 81.8 % en el resto de las EPOC.
+
+**Nota:** el piso de ruido solo predice por encima del azar: no se puede afirmar que todo el AUC de la CNN sea señal de tos.
+
 ## Estructura y orden de ejecución
 
 ```

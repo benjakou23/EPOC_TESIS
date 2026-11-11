@@ -1,0 +1,15 @@
+== (a) AUC de la CNN con IC95 por participante ==
+  Todas (853)  [EPOC 221, sanos 632]
+    CNN audio completo   0.731  [0.685; 0.776]
+    CNN 8 s              0.728  [0.679; 0.776]
+  Sin las 23 EPOC < 3 s  [EPOC 198, sanos 632]
+    CNN audio completo   0.701  [0.650; 0.745]
+    CNN 8 s              0.698  [0.644; 0.743]
+
+== (b) Probabilidad media y % sobre el umbral honesto, solo EPOC ==
+  CNN audio completo
+    EPOC < 3 s   n= 23  prob. media 0.892  sobre el umbral 100.0%
+    Otras EPOC   n=198  prob. media 0.465  sobre el umbral 81.8%
+  CNN 8 s
+    EPOC < 3 s   n= 23  prob. media 0.892  sobre el umbral 100.0%
+    Otras EPOC   n=198  prob. media 0.464  sobre el umbral 81.2%
