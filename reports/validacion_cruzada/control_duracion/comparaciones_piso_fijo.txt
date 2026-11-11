@@ -1,0 +1,30 @@
+Predicciones: C:\Users\benja\tesis_epo\reports\validacion_cruzada\control_duracion\predicciones_oof_piso_fijo.csv
+288 grupos (carpetas participante/sesión), 5 repeticiones, B=1000
+
+== 1. AUC fuera de partición (media de repeticiones), IC95 bootstrap por participante ==
+  p_Metadatos        0.645  [0.575; 0.705]
+  p_CNN              0.730  [0.684; 0.774]
+  p_PisoFijo_RF      0.653  [0.593; 0.715]
+  p_PisoFijo_LR      0.547  [0.499; 0.594]
+
+== 2. Diferencia de AUC vs p_Metadatos (pareada, bootstrap por participante) ==
+  p_CNN              +0.085  [+0.009; +0.167]  IC EXCLUYE 0 | DeLong p<0.05 en 3/5 rep.
+  p_PisoFijo_RF      +0.008  [-0.082; +0.099]  IC incluye 0 | DeLong p<0.05 en 0/5 rep.
+  p_PisoFijo_LR      -0.098  [-0.164; -0.021]  IC EXCLUYE 0 | DeLong p<0.05 en 5/5 rep.
+  (DeLong asume casos independientes; hay varias grabaciones por participante: el IC por
+   participante es la medida principal, DeLong es complementaria.)
+
+== 3. Umbral de tamizaje (sensibilidad objetivo 85%) ==
+  honesto = umbral fijado con las OOF de los otros folds de la misma repetición
+  resust. = umbral único fijado con TODAS las OOF (sens. optimista por construcción)
+  p_CNN              honesto: sens 0.836 esp 0.426 | resust. (umbral 0.2931): sens 0.850 esp 0.407
+  p_PisoFijo_RF      honesto: sens 0.839 esp 0.316 | resust. (umbral 0.2287): sens 0.850 esp 0.318
+  p_PisoFijo_LR      honesto: sens 0.832 esp 0.190 | resust. (umbral 0.2353): sens 0.850 esp 0.174
+
+== 4. Valores predictivos según prevalencia (VPP / VPN / % derivados a espirometría) ==
+  p_CNN              honesto: 6%: VPP 8.5% VPN 97.6% deriva 59% | 12%: VPP 16.6% VPN 95.0% deriva 61% | 26%: VPP 33.9% VPN 88.1% deriva 64%
+  p_CNN              resust.: 6%: VPP 8.4% VPN 97.7% deriva 61% | 12%: VPP 16.3% VPN 95.2% deriva 62% | 26%: VPP 33.5% VPN 88.5% deriva 66%
+  p_PisoFijo_RF      honesto: 6%: VPP 7.3% VPN 96.9% deriva 69% | 12%: VPP 14.3% VPN 93.5% deriva 70% | 26%: VPP 30.1% VPN 84.8% deriva 72%
+  p_PisoFijo_RF      resust.: 6%: VPP 7.4% VPN 97.1% deriva 69% | 12%: VPP 14.5% VPN 94.0% deriva 70% | 26%: VPP 30.5% VPN 85.8% deriva 73%
+  p_PisoFijo_LR      honesto: 6%: VPP 6.1% VPN 94.6% deriva 81% | 12%: VPP 12.3% VPN 89.2% deriva 81% | 26%: VPP 26.5% VPN 76.2% deriva 82%
+  p_PisoFijo_LR      resust.: 6%: VPP 6.2% VPN 94.8% deriva 83% | 12%: VPP 12.3% VPN 89.5% deriva 83% | 26%: VPP 26.6% VPN 76.8% deriva 83%
