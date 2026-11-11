@@ -20,8 +20,20 @@ N_MELS = 64
 
 
 # ---------------------------------------------------------------- datos
-def cargar_meta(root: Path) -> pd.DataFrame:
-    return pd.read_csv(root / "data" / "processed" / "copd_cough" / "metadata.csv")
+MIN_DUR_S = 3.0        # criterio de elegibilidad: las grabaciones < 3 s se rellenarían con ceros
+
+
+def cargar_meta(root: Path, min_dur_s: float = MIN_DUR_S, verbose: bool = True) -> pd.DataFrame:
+    """Metadatos de las grabaciones elegibles (dur_s >= min_dur_s). Con min_dur_s=0 se recuperan las 853."""
+    meta = pd.read_csv(root / "data" / "processed" / "copd_cough" / "metadata.csv")
+    meta = meta[meta.dur_s >= min_dur_s].reset_index(drop=True)
+    if verbose:
+        c = meta.groupby("clase").agg(grabaciones=("id", "size"), participantes=("grupo", "nunique"))
+        print(f"[cargar_meta] min_dur_s={min_dur_s}: {len(meta)} grabaciones, "
+              f"{meta.grupo.nunique()} participantes | "
+              + " | ".join(f"{k}: {r.grabaciones} grab., {r.participantes} partic." for k, r in c.iterrows()),
+              flush=True)
+    return meta
 
 
 def cargar_wav(root: Path, npy: str) -> np.ndarray:

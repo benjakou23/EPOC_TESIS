@@ -1,11 +1,15 @@
-"""AUC por estratos de duración (sin reentrenar) y conteo de audios < 3 s (relleno con ceros en la CNN)."""
+"""AUC por estratos de duración (sin reentrenar), sobre las grabaciones elegibles de cargar_meta."""
+import sys
 from pathlib import Path
 import numpy as np, pandas as pd
 from sklearn.metrics import roc_auc_score
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from audio_utils import cargar_meta  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "reports/validacion_cruzada/control_duracion"; OUT.mkdir(parents=True, exist_ok=True)
-meta = pd.read_csv(ROOT / "data/processed/copd_cough/metadata.csv")
+meta = cargar_meta(ROOT)
 u = pd.read_csv(ROOT / "reports/validacion_cruzada/predicciones_oof_unido.csv").merge(
     meta[["id", "grupo", "dur_s"]], on="id")
 mods = {"CNN": "p_CNN", "Fusión CNN+OPERA-CE": "p_Fusion_CNN_CE", "OPERA-CE": "p_OPERA_CE", "Metadatos": "p_Metadatos"}
@@ -51,7 +55,4 @@ for nom, f, ok in res:
         lo, hi = np.percentile(boot[m], [2.5, 97.5])
         log(f"    {m:22s} {pt:.3f}  [{lo:.3f}; {hi:.3f}]")
 
-log("\n== Grabaciones < 3 s (la CNN las rellena con ceros) ==")
-c = meta[meta.dur_s < 3]
-log(f"  EPOC {int((c.label == 1).sum())} de {int((meta.label == 1).sum())} | sanos {int((c.label == 0).sum())} de {int((meta.label == 0).sum())}")
 (OUT / "estratos_duracion.txt").write_text("\n".join(lin), encoding="utf-8")
