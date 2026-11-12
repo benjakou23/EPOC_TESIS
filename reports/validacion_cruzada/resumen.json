@@ -1,0 +1,93 @@
+{
+  "media": {
+    "CNN": {
+      "auc": 0.7075,
+      "sensibilidad": 0.7711,
+      "especificidad": 0.4957,
+      "vpp": 0.3272,
+      "vpn": 0.8859,
+      "f1": 0.4543,
+      "exactitud": 0.5617,
+      "bal_acc": 0.6334
+    },
+    "Fusion": {
+      "auc": 0.7364,
+      "sensibilidad": 0.7433,
+      "especificidad": 0.5872,
+      "vpp": 0.3759,
+      "vpn": 0.8858,
+      "f1": 0.4889,
+      "exactitud": 0.6246,
+      "bal_acc": 0.6652
+    },
+    "Metadatos": {
+      "auc": 0.6207,
+      "sensibilidad": 0.6816,
+      "especificidad": 0.4375,
+      "vpp": 0.2803,
+      "vpn": 0.8154,
+      "f1": 0.3919,
+      "exactitud": 0.4959,
+      "bal_acc": 0.5596
+    },
+    "OPERA": {
+      "auc": 0.7061,
+      "sensibilidad": 0.7583,
+      "especificidad": 0.5137,
+      "vpp": 0.3392,
+      "vpn": 0.8772,
+      "f1": 0.4602,
+      "exactitud": 0.5723,
+      "bal_acc": 0.636
+    }
+  },
+  "std": {
+    "CNN": {
+      "auc": 0.0631,
+      "sensibilidad": 0.1586,
+      "especificidad": 0.1351,
+      "vpp": 0.0378,
+      "vpn": 0.0575,
+      "f1": 0.0541,
+      "exactitud": 0.0776,
+      "bal_acc": 0.0519
+    },
+    "Fusion": {
+      "auc": 0.0598,
+      "sensibilidad": 0.1415,
+      "especificidad": 0.1533,
+      "vpp": 0.0726,
+      "vpn": 0.0425,
+      "f1": 0.0592,
+      "exactitud": 0.0945,
+      "bal_acc": 0.054
+    },
+    "Metadatos": {
+      "auc": 0.0732,
+      "sensibilidad": 0.1497,
+      "especificidad": 0.1628,
+      "vpp": 0.0445,
+      "vpn": 0.0458,
+      "f1": 0.0524,
+      "exactitud": 0.0998,
+      "bal_acc": 0.0558
+    },
+    "OPERA": {
+      "auc": 0.0661,
+      "sensibilidad": 0.1465,
+      "especificidad": 0.164,
+      "vpp": 0.0595,
+      "vpn": 0.0435,
+      "f1": 0.0615,
+      "exactitud": 0.1027,
+      "bal_acc": 0.0596
+    }
+  },
+  "victorias_auc_por_fold": {
+    "Fusion > CNN": 17,
+    "CNN > Metadatos": 21,
+    "CNN > OPERA": 13,
+    "Fusion > OPERA": 22,
+    "total_folds": 25
+  }
+}

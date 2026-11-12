@@ -1,0 +1,25 @@
+Predicciones: C:\Users\benja\tesis_epo\reports\validacion_cruzada\cnn_8s\predicciones_oof.csv
+281 grupos (carpetas participante/sesión), 5 repeticiones, B=1000
+
+== 1. AUC fuera de partición (media de repeticiones), IC95 bootstrap por participante ==
+  p_Metadatos        0.619  [0.538; 0.690]
+  p_CNN              0.688  [0.633; 0.738]
+  p_CNN_8s           0.685  [0.631; 0.735]
+
+== 2. Diferencia de AUC vs p_Metadatos (pareada, bootstrap por participante) ==
+  p_CNN              +0.069  [-0.007; +0.153]  IC incluye 0 | DeLong p<0.05 en 4/5 rep.
+  p_CNN_8s           +0.066  [-0.015; +0.152]  IC incluye 0 | DeLong p<0.05 en 4/5 rep.
+  (DeLong asume casos independientes; hay varias grabaciones por participante: el IC por
+   participante es la medida principal, DeLong es complementaria.)
+
+== 3. Umbral de tamizaje (sensibilidad objetivo 85%) ==
+  honesto = umbral fijado con las OOF de los otros folds de la misma repetición
+  resust. = umbral único fijado con TODAS las OOF (sens. optimista por construcción)
+  p_CNN              honesto: sens 0.825 esp 0.371 | resust. (umbral 0.3330): sens 0.851 esp 0.354
+  p_CNN_8s           honesto: sens 0.823 esp 0.368 | resust. (umbral 0.3265): sens 0.851 esp 0.345
+
+== 4. Valores predictivos según prevalencia (VPP / VPN / % derivados a espirometría) ==
+  p_CNN              honesto: 6%: VPP 7.7% VPN 97.1% deriva 64% | 12%: VPP 15.2% VPN 94.0% deriva 65% | 26%: VPP 31.6% VPN 85.8% deriva 68%
+  p_CNN              resust.: 6%: VPP 7.8% VPN 97.4% deriva 66% | 12%: VPP 15.2% VPN 94.6% deriva 67% | 26%: VPP 31.6% VPN 87.1% deriva 70%
+  p_CNN_8s           honesto: 6%: VPP 7.7% VPN 97.0% deriva 64% | 12%: VPP 15.1% VPN 93.8% deriva 66% | 26%: VPP 31.4% VPN 85.6% deriva 68%
+  p_CNN_8s           resust.: 6%: VPP 7.7% VPN 97.3% deriva 67% | 12%: VPP 15.0% VPN 94.4% deriva 68% | 26%: VPP 31.3% VPN 86.8% deriva 71%

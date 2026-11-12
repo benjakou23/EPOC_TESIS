@@ -1,0 +1,22 @@
+== Conteo por estrato (grabaciones únicas) ==
+  (a) todas  EPOC  198 | sanos  632 | AUC reportado
+  (b) 5–10 s EPOC  148 | sanos  576 | AUC reportado
+  (c) < 5 s  EPOC   16 | sanos   26 | MENOS DE 20 de una clase: NO se reporta AUC
+  (d) > 10 s EPOC   34 | sanos   30 | AUC reportado
+
+== AUC (media de repeticiones) con IC95 por participante ==
+  (a) todas
+    CNN                    0.688  [0.633; 0.738]
+    Fusión CNN+OPERA-CE    0.726  [0.666; 0.780]
+    OPERA-CE               0.694  [0.633; 0.749]
+    Metadatos              0.619  [0.538; 0.690]
+  (b) 5–10 s
+    CNN                    0.680  [0.618; 0.740]
+    Fusión CNN+OPERA-CE    0.725  [0.661; 0.788]
+    OPERA-CE               0.697  [0.633; 0.762]
+    Metadatos              0.558  [0.491; 0.632]
+  (d) > 10 s
+    CNN                    0.699  [0.563; 0.800]
+    Fusión CNN+OPERA-CE    0.714  [0.584; 0.812]
+    OPERA-CE               0.660  [0.533; 0.775]
+    Metadatos              0.728  [0.562; 0.859]

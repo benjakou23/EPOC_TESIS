@@ -1,0 +1,63 @@
+Grabaciones con < 100 cuadros (excluidas): 0 de 830
+r0 f0 ok
+r0 f1 ok
+r0 f2 ok
+r0 f3 ok
+r0 f4 ok
+r1 f0 ok
+r1 f1 ok
+r1 f2 ok
+r1 f3 ok
+r1 f4 ok
+r2 f0 ok
+r2 f1 ok
+r2 f2 ok
+r2 f3 ok
+r2 f4 ok
+r3 f0 ok
+r3 f1 ok
+r3 f2 ok
+r3 f3 ok
+r3 f4 ok
+r4 f0 ok
+r4 f1 ok
+r4 f2 ok
+r4 f3 ok
+r4 f4 ok
+Predicciones: C:\Users\benja\tesis_epo\reports\validacion_cruzada\control_duracion\predicciones_oof_piso_fijo.csv
+281 grupos (carpetas participante/sesión), 5 repeticiones, B=1000
+
+== 1. AUC fuera de partición (media de repeticiones), IC95 bootstrap por participante ==
+  p_Metadatos        0.619  [0.538; 0.690]
+  p_CNN              0.688  [0.633; 0.738]
+  p_PisoFijo_RF      0.610  [0.549; 0.674]
+  p_PisoFijo_LR      0.566  [0.502; 0.627]
+
+== 2. Diferencia de AUC vs p_Metadatos (pareada, bootstrap por participante) ==
+  p_CNN              +0.069  [-0.007; +0.153]  IC incluye 0 | DeLong p<0.05 en 4/5 rep.
+  p_PisoFijo_RF      -0.009  [-0.095; +0.091]  IC incluye 0 | DeLong p<0.05 en 0/5 rep.
+  p_PisoFijo_LR      -0.053  [-0.141; +0.028]  IC incluye 0 | DeLong p<0.05 en 1/5 rep.
+  (DeLong asume casos independientes; hay varias grabaciones por participante: el IC por
+   participante es la medida principal, DeLong es complementaria.)
+
+== 3. Umbral de tamizaje (sensibilidad objetivo 85%) ==
+  honesto = umbral fijado con las OOF de los otros folds de la misma repetición
+  resust. = umbral único fijado con TODAS las OOF (sens. optimista por construcción)
+  p_CNN              honesto: sens 0.825 esp 0.371 | resust. (umbral 0.3330): sens 0.851 esp 0.354
+  p_PisoFijo_RF      honesto: sens 0.843 esp 0.286 | resust. (umbral 0.2175): sens 0.852 esp 0.291
+  p_PisoFijo_LR      honesto: sens 0.836 esp 0.178 | resust. (umbral 0.2544): sens 0.851 esp 0.153
+
+== 4. Valores predictivos según prevalencia (VPP / VPN / % derivados a espirometría) ==
+  p_CNN              honesto: 6%: VPP 7.7% VPN 97.1% deriva 64% | 12%: VPP 15.2% VPN 94.0% deriva 65% | 26%: VPP 31.6% VPN 85.8% deriva 68%
+  p_CNN              resust.: 6%: VPP 7.8% VPN 97.4% deriva 66% | 12%: VPP 15.2% VPN 94.6% deriva 67% | 26%: VPP 31.6% VPN 87.1% deriva 70%
+  p_PisoFijo_RF      honesto: 6%: VPP 7.0% VPN 96.6% deriva 72% | 12%: VPP 13.9% VPN 93.1% deriva 73% | 26%: VPP 29.3% VPN 83.9% deriva 75%
+  p_PisoFijo_RF      resust.: 6%: VPP 7.1% VPN 96.8% deriva 72% | 12%: VPP 14.1% VPN 93.5% deriva 73% | 26%: VPP 29.7% VPN 84.8% deriva 75%
+  p_PisoFijo_LR      honesto: 6%: VPP 6.1% VPN 94.5% deriva 82% | 12%: VPP 12.2% VPN 88.9% deriva 82% | 26%: VPP 26.3% VPN 75.6% deriva 83%
+  p_PisoFijo_LR      resust.: 6%: VPP 6.0% VPN 94.1% deriva 85% | 12%: VPP 12.0% VPN 88.2% deriva 85% | 26%: VPP 26.1% VPN 74.4% deriva 85%
+
+Guardado en C:\Users\benja\tesis_epo\reports\validacion_cruzada\control_duracion\comparaciones_piso_fijo.txt
+
+
+== 5. Diferencia pareada de AUC, CNN - piso fijo (IC95 por participante) ==
+  CNN - PisoFijo_RF: +0.078  [+0.003; +0.148]  EXCLUYE 0
+  CNN - PisoFijo_LR: +0.122  [+0.059; +0.190]  EXCLUYE 0
